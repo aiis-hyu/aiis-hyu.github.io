@@ -94,7 +94,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .course-code.tag,.course-level.tag{display:inline-flex}
 .course-level.tag{margin-top:7px}
 .course-detail h4{color:#2b4261}
-#main .contact-slide-details dt,#main .contact-details dt{color:#6380a2;font-weight:600}
+#main .contact-slide-details dt,#main .contact-details dt{color:#557296;font-weight:600}
 .contact-email{color:var(--accent)}
 .contact-grid section+section{background:#f3f7fc}
 .site-footer,.site-footer p,.site-footer .footer-copyright{color:#5d728b;background:#f7f9fc}
@@ -123,7 +123,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .intro-playback button,.intro-arrows button{border-color:#d7e2f0;color:#4c6f9b;border-radius:5px}
 .intro-playback button:hover,.intro-arrows button:hover{background:#edf4fd;border-color:#aac6e6}
 .intro-playback #intro-motion[aria-pressed=true]{color:#366aa6;background:#eef5ff;border-color:#d4e3f6}
-.intro-segments button{color:#71839a}
+.intro-segments button{color:#5d728c}
 .intro-segments button[aria-pressed=true]{color:var(--accent)}
 .segment-label small{color:#5f7590}.segment-track{background:#e6edf6;border-radius:3px}.segment-fill{background:#4c83c7}
 #intro-time{color:#57718f}
@@ -133,11 +133,11 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .loop-node{border-color:#d1dff0;background:#fff;border-radius:6px}
 .loop-node[aria-pressed=true]{border-color:#78a5d9;background:#eaf3ff;box-shadow:inset 3px 0 #3979c6}
 .loop-node[aria-pressed=true] strong,.loop-node[aria-pressed=true] .node-number{color:#2c65aa}
-.loop-node small,.node-number{color:#6c809b}
+.loop-node small,.node-number{color:#5d728e}
 .wire-flow{stroke:#398b80}.wire-base{stroke:#c2d5eb}
 .loop-core{background:#28466e;border-radius:5px}
 .loop-description,.loop-controls{border-color:#d7e3f2}
-.loop-controls,.loop-controls button{color:#687f9c}
+.loop-controls,.loop-controls button{color:#5d728e}
 .loop-controls button{border-radius:5px;border-color:#d0dff0;background:#fff}
 .slide-contact{background:linear-gradient(125deg,#f9fbfe,#edf4fc)}
 #main .contact-campus{color:#2a4971}.contact-campus span{color:#54749c}
