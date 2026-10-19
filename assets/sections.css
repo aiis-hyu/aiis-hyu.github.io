@@ -87,3 +87,201 @@
  html[lang=en] .title-affiliation .affiliation-department{font-size:11px;width:auto;max-width:215px}
 }
 @media(max-width:360px){.title-affiliation{gap:12px}.title-affiliation strong,.title-affiliation .affiliation-department{font-size:12px}html[lang=en] .title-affiliation .affiliation-department{max-width:185px;font-size:10px}}
+
+/* Readability: black body copy, clear metadata and a stronger green hierarchy. */
+:root{--ink:#000;--muted:#000;--accent:#006b49;--accent-light:#e2f1e9}
+body{font-size:16px}
+#main :is(h1,h2,h3,h4){font-weight:700;color:var(--ink)}
+#main :is(p,dt,dd,li){color:var(--ink)}
+#main :is(.eyebrow,.small-label,.section-number){font-size:14px;font-weight:700;line-height:1.65;letter-spacing:1px;color:var(--accent)}
+.text-link,.button{font-size:14px;font-weight:700}
+.text-link{color:var(--accent)}
+#main .library-overview{justify-content:flex-end}#main .library-overview a{font-size:14px}
+#main .pub-actions,#main .status-label{font-size:14px}
+#main .copy-citation,#main .pub-details summary{font-weight:700}
+.header-inner{gap:22px}.brand img{width:300px}
+#main-nav{gap:22px}
+#main-nav a{font-size:15px;font-weight:700;letter-spacing:.35px;color:var(--ink)}
+#main-nav a[aria-current=page],#main-nav a:hover{color:var(--accent)}
+.language-switch button{font-size:12px;font-weight:700;min-height:30px;min-width:30px}
+.page-hero>.wrap{grid-template-columns:1fr;gap:0}
+.page-hero h1{max-width:none}
+
+/* Keep the affiliation attached to the logo, with the message alongside it. */
+.title-brand{min-width:0}
+.title-affiliation{margin:0 0 12px;gap:13px;text-align:left;max-width:none}
+.title-affiliation p{display:flex;flex-wrap:wrap;gap:3px 12px;justify-content:flex-start;line-height:1.5}
+.title-affiliation strong,.title-affiliation .affiliation-department{font-size:18px;font-weight:700;color:var(--ink)}
+.title-affiliation .affiliation-divider{display:none}
+.title-affiliation .affiliation-department{flex-basis:100%}
+.title-body{grid-template-columns:1.26fr 1fr;gap:40px}
+.title-banner:after{animation-duration:3.4s}
+.title-vision h2 em{color:var(--accent);font-weight:800}
+#main .title-vision>p,html[lang=en] #main .title-vision>p{font-size:16px;line-height:1.85;max-width:370px;margin-top:20px}
+.title-vision>p strong{color:var(--accent);font-weight:700}
+.intro-topline{font-size:12px;color:var(--ink);letter-spacing:1px}
+.intro-topline span:last-child{font-weight:700}
+.segment-label{font-size:13px;white-space:normal}.segment-label small{font-size:12px;color:var(--ink)}
+.intro-segments button{color:var(--ink)}
+.intro-segments button[aria-pressed=true]{color:var(--accent);font-weight:700}
+#intro-time{font-size:13px;font-weight:700}
+.intro-playback #intro-motion{font-size:12px;min-width:95px}
+.intro-playback button,.intro-arrows button{min-height:36px}
+.slide-framework .framework-heading h2{font-size:30px}
+#main .framework-summary{font-size:15px;line-height:1.8}
+.framework-topics{font-size:12px;line-height:1.8;font-weight:700;color:var(--accent);letter-spacing:.4px;flex-wrap:wrap}
+.intro-stage{height:500px}
+.slide-framework .intelligence-loop{height:450px;padding:18px}
+.slide-framework .loop-heading{font-size:12px;letter-spacing:.6px}
+.slide-framework .loop-map{min-height:215px;margin-top:9px}
+.slide-framework .loop-node{width:41%;padding:13px 11px 10px}
+.slide-framework .loop-node strong{font-size:17px;font-weight:700;letter-spacing:-.3px}
+.slide-framework .loop-node small{font-size:10px;line-height:1.4;white-space:normal;letter-spacing:.2px}
+.slide-framework .node-number{font-size:10px;top:4px;right:7px}
+.slide-framework .loop-core{font-size:10px;padding:10px;gap:7px;letter-spacing:.3px}
+.slide-framework .loop-description{min-height:98px}
+#main .slide-framework .loop-description p{font-size:14px;line-height:1.65;min-height:46px}
+.slide-framework .loop-description a{font-size:13px}
+.slide-framework .loop-controls,.slide-framework .loop-controls button{font-size:12px;line-height:1.5}
+.slide-framework .loop-controls button{padding:5px 8px;min-height:32px;flex-shrink:0}
+.slide-framework .loop-controls>span{max-width:220px}
+.slide-framework .wire-flow{animation-duration:3s}
+.loop-index,.loop-node[aria-pressed=true] .node-number{font-weight:700}
+#main .contact-slide-note{font-size:15px;line-height:1.75}
+#main .contact-campus{font-size:21px;font-weight:700}
+.contact-campus span{font-size:17px;font-weight:700}
+#main .contact-slide-details dt{font-size:14px;font-weight:700;color:var(--accent)}
+#main .contact-slide-details dd{font-size:16px}
+.contact-email{color:var(--accent);font-weight:700}
+
+/* Metadata remains readable throughout lists, archives and profiles. */
+#main :is(.news-meta,.home-news-item .news-meta,.publication-topline,.pub-kind b,.results-meta p,.results-meta>span,.publication-year h2>span,.people-group-heading>span,.member-copy .small-label,.member-other-name,.member-period,.member-copy>a,.cv-date,.cv-place,.project-period,.project-year .project-period,.project-description dl,.project-section-heading>span,.project-year>h3>span,.project-history-note,.project-year-index a,.project-overview>a>span,.project-overview small,.research-area-index a span,.research-partners>span,.research-media-card figcaption p,.research-media-card .text-link,.research-publications summary,.research-publications summary span,.video-kind,.video-action,.gallery-caption>span,.profile-nav a,.pub-link,.copy-citation,.pub-details summary,.pub-details p,.pub-details .metric-note){font-size:14px;line-height:1.7}
+#main :is(.news-meta,.results-meta>span,.people-group-heading>span,.member-other-name,.member-period,.cv-place,.project-description dt,.project-description dd,.project-section-heading>span,.project-year>h3>span,.project-history-note,.research-partners>span,.research-media-card figcaption p,.video-kind,.video-action,.gallery-caption>span,.profile-nav a){color:var(--ink)}
+#main :is(.news-meta>span,.publication-topline,.status-label,.pub-kind b,.results-meta p,.cv-date,.project-period,.project-year .project-period,.project-year-index a,.project-overview>a>span,.research-area-index a span,.research-publications summary,.research-publications summary span,.member-copy .small-label,.cv-section-heading>span,.related-pubs a>span:first-child,.pub-link){color:var(--accent);font-weight:700}
+#main :is(.home-news-item>p,.research-explanation>p,.news-article p,.professor-affiliation,.cv-row p,.academic-groups ul,.pub-authors,.pub-venue,.contact-grid p,.contact-details dd){font-size:16px;line-height:1.85}
+#main :is(.research-area-index a,.research-partners .text-link,.related-pubs a,.related-pubs a>span:first-child,.professor-office,.contact-details dt,.news-article .text-link,.pub-filters select,.pub-filters input,.news-filters button){font-size:14px}
+#main :is(.project-overview strong,.project-year>h3,.research-area-number){color:var(--accent);font-weight:700}
+.project-description h3,.project-year .project-description h3{font-size:18px}
+.project-overview>a>span{letter-spacing:1px}
+.project-period{gap:4px 7px}
+.publication-topline{gap:12px;flex-wrap:wrap}
+.pub-kind button{font-size:16px;font-weight:700}
+.pub-kind button[aria-pressed=true]{background:#edf7f1;color:var(--accent);box-shadow:inset 0 -3px var(--accent)}
+#main .pub-kind b{font-size:24px;line-height:1.2}
+#main .member-status{font-size:14px;line-height:1.65;font-weight:700;color:var(--accent);margin-top:9px}
+.member-copy{min-width:0}
+.portrait-member-grid{gap:0 32px}
+.member-copy>a{overflow-wrap:anywhere}
+.profile-nav{gap:14px 24px}.profile-nav a{font-weight:700}
+.cv-row{grid-template-columns:170px minmax(0,1fr)}
+.cv-row h3{font-size:18px}
+.cv-section-heading>span{font-size:14px;font-weight:700}
+.site-footer,.site-footer p,.site-footer .footer-copyright{font-size:13px;color:var(--ink);line-height:1.8}
+
+/* Teaching history, grouped by university with the verified semesters. */
+.teaching-groups,.teaching-school,.course-detail{min-width:0}
+.teaching-school+.teaching-school{margin-top:38px}
+#main .teaching-school>h3{font-size:21px;color:var(--accent);margin-bottom:16px}
+.course-list{border-top:2px solid var(--accent)}
+.course-row{display:grid;grid-template-columns:112px minmax(0,1fr);gap:20px;padding:20px 0;border-bottom:1px solid var(--line)}
+.course-code{display:block;color:var(--accent);font-size:14px;font-weight:700;letter-spacing:.4px}
+.course-level{display:block;font-size:13px;margin-top:6px}
+.course-detail h4{font-size:17px;line-height:1.6;margin:0;word-break:keep-all}
+.course-english{font-size:14px;line-height:1.7;margin-top:5px}
+.course-terms{font-size:14px;line-height:1.8;margin-top:9px}
+.course-terms>span{font-weight:700;margin-right:10px}
+.course-detail .text-link{font-size:14px;margin-top:9px}
+.teaching-source{margin-top:24px}
+
+@media(max-width:1150px){
+ .brand img{width:260px}.header-inner{gap:18px}#main-nav{gap:17px}#main-nav a{font-size:14px}
+ .title-body{gap:28px}.title-affiliation strong,.title-affiliation .affiliation-department{font-size:17px}
+ .slide-framework{grid-template-columns:.8fr 1.2fr;gap:23px;padding:25px}
+ .slide-framework .framework-heading h2{font-size:27px}
+ .portrait-member{grid-template-columns:100px minmax(0,1fr);gap:18px}.portrait-member .portrait{width:100px}
+ .cv-row{grid-template-columns:145px minmax(0,1fr)}
+}
+@media(max-width:1000px){
+ .header-tools{margin-left:auto}.menu-toggle{display:block}
+ #main-nav{display:none;position:absolute;top:100%;left:0;right:0;padding:15px 20px 25px;background:white;border-bottom:1px solid var(--line)}
+ #main-nav.open{display:flex;flex-direction:column;align-items:stretch;gap:0}
+ #main-nav a{font-size:16px;padding:12px 8px}
+ #main-nav a[aria-current=page]:after{bottom:6px;width:24px;left:8px}
+ .intro-controls{flex-wrap:wrap;gap:12px}.intro-segments{order:3;flex-basis:100%}
+ .intro-playback{order:0}.intro-arrows{display:flex;order:1;margin-left:auto}#intro-time{order:2}
+ .slide-framework .loop-core{font-size:9px;gap:5px;padding:9px 7px}
+ .slide-framework .loop-node strong{font-size:15px}
+ .slide-framework .loop-controls>span{max-width:160px}
+ .cv-section{grid-template-columns:1fr;gap:24px}
+ .cv-section-heading{display:flex;align-items:baseline;gap:16px}.cv-section-heading h2{margin:0}
+}
+@media(max-width:800px){
+ .intro-stage{height:650px}
+ .slide-framework{grid-template-columns:1fr;gap:20px;padding:24px}
+ .framework-heading h2 br{display:none}.framework-heading{text-align:left}
+ #main .framework-summary,.framework-topics{display:none}
+ .slide-framework .intelligence-loop{height:450px;width:100%;max-width:560px;justify-self:center}
+ .slide-framework .loop-node strong{font-size:17px}
+ .slide-framework .loop-core{font-size:10px;gap:8px}
+ .slide-framework .loop-controls>span{max-width:240px}
+ .title-affiliation strong,.title-affiliation .affiliation-department{font-size:16px}
+ .title-body{gap:24px}.title-vision h2{font-size:28px}
+ .portrait-member-grid{grid-template-columns:1fr}
+ .portrait-member{grid-template-columns:92px minmax(0,1fr)}.portrait-member .portrait{width:92px}
+ .contact-email{font-size:20px}
+ .contact-slide-details dl>div{grid-template-columns:1fr;gap:3px}
+ .contact-slide-details dl{gap:16px}
+ #main .contact-slide-details dd{font-size:15px}
+}
+@media(max-width:600px){
+ .brand img{width:205px}.header-inner{gap:10px}.header-tools{gap:5px}
+ .language-switch button{font-size:12px;min-width:26px}
+ .title-content{padding:28px 23px}.title-body{gap:28px}.title-brand{width:100%;max-width:390px}
+ .title-affiliation{justify-content:center;gap:13px;margin:0 0 12px}
+ .title-affiliation p,html[lang=en] .title-affiliation p{gap:3px}
+ .title-affiliation strong{font-size:16px}
+ .title-affiliation .affiliation-department,html[lang=en] .title-affiliation .affiliation-department{font-size:14px;max-width:230px;width:auto}
+ html[lang=en] .title-affiliation strong{font-size:15px}
+ .title-affiliation .university-symbol{width:36px;height:36px}
+ .title-vision h2{font-size:29px}html[lang=en] .title-vision h2{font-size:27px}
+ #main .title-vision>p,html[lang=en] #main .title-vision>p{font-size:15px;margin-top:14px}
+ .intro-topline{font-size:11px;letter-spacing:.35px;gap:12px}
+ .intro-controls{padding:13px}.segment-label{font-size:12px}.segment-label small{display:block;font-size:11px}
+ .slide-framework{padding:20px 16px;gap:18px;justify-content:center}
+ .slide-framework .framework-heading h2{font-size:24px}
+ .slide-framework .intelligence-loop{height:460px;padding:13px}
+ .slide-framework .loop-heading{font-size:11px}
+ .slide-framework .loop-node{padding:13px 8px 10px}
+ .slide-framework .loop-node strong{font-size:16px}
+ .slide-framework .loop-core{font-size:9px;padding:9px 7px;gap:5px}
+ .slide-framework .loop-controls,.slide-framework .loop-controls button{font-size:11px}
+ .slide-framework .loop-controls>span{max-width:180px}
+ .slide-contact{padding:24px 20px;gap:22px}
+ .contact-slide-intro{padding-left:72px;min-height:112px}
+ .contact-slide-intro .contact-symbol{width:58px}
+ .contact-email{font-size:17px;letter-spacing:-.4px;gap:5px;overflow-wrap:anywhere}
+ #main .contact-slide-note{font-size:14px;line-height:1.7}
+ #main .contact-campus{font-size:20px;margin-bottom:20px}.contact-campus span{font-size:16px}
+ .contact-slide-details dl>div{grid-template-columns:65px 1fr;gap:10px}
+ #main .contact-slide-details dd{font-size:15px}
+ .project-description h3,.project-year .project-description h3{font-size:17px}
+ .pub-kind button{font-size:14px;padding:14px 12px}
+ .results-meta{align-items:flex-start;gap:8px;flex-direction:column}.results-meta>span{max-width:none;text-align:left}
+ .people-group-heading{flex-wrap:wrap;gap:6px}.people-group-heading>span{padding-top:0}
+ .portrait-member{grid-template-columns:80px minmax(0,1fr);gap:20px}.portrait-member .portrait{width:80px}
+ .cv-row{grid-template-columns:1fr;gap:8px}
+ .course-row{grid-template-columns:1fr;gap:8px}
+ .course-meta{display:flex;align-items:baseline;gap:12px}.course-level{margin:0}
+ .course-detail h4{font-size:17px}
+}
+@media(max-width:360px){
+ .brand img{width:175px}.header-inner{gap:7px}.language-switch button{min-width:23px}
+ .title-content{padding-inline:17px}.title-affiliation{gap:10px}
+ html[lang=en] .title-affiliation strong{font-size:14px}
+ .title-affiliation .affiliation-department,html[lang=en] .title-affiliation .affiliation-department{font-size:13px;max-width:190px}
+ .slide-framework{padding-inline:12px}.slide-framework .loop-controls>span{max-width:140px}
+ .slide-framework .loop-core{font-size:8px;gap:4px}
+ .contact-slide-intro{padding-left:0;min-height:0}.contact-slide-intro .contact-symbol{position:static;width:48px;margin:8px 0}
+ .contact-email{font-size:17px}.contact-slide-details dl>div{grid-template-columns:1fr;gap:3px}
+ .contact-slide-details dl{gap:12px}
+}

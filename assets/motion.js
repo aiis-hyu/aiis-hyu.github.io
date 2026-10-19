@@ -4,11 +4,12 @@
     if(!root)return {destroy(){},getState(){return saved;}};
     const slides=[...root.querySelectorAll('.intro-slide')],segments=[...root.querySelectorAll('[data-intro-slide]')],names=['Title','Research Framework','Contact'];
     const frameworkIndex=slides.findIndex(slide=>slide.classList.contains('slide-framework'));
-    const reduce=matchMedia('(prefers-reduced-motion: reduce)'),duration=8000,total=duration*slides.length;
+    const duration=4000,total=duration*slides.length,stageDuration=duration/4;
     let motionPreference=null;
     try{const value=localStorage.getItem('aiis-visual-motion');if(value==='on'||value==='off')motionPreference=value==='on';}catch{}
-    let index=Math.min(slides.length-1,Math.max(0,saved?.slide??0)),elapsed=saved?.elapsed??0,playing=saved?.playing??!reduce.matches;
-    let visualPlaying=saved?.visualPlaying??motionPreference??!reduce.matches,last=0,frame=0,visible=true;
+    let index=Math.min(slides.length-1,Math.max(0,saved?.slide??0)),elapsed=saved?.elapsed??0,playing=saved?.playing??true;
+    // Autoplay is the site default; retain a visitor's explicit Motion Off choice.
+    let visualPlaying=saved?.visualPlaying??motionPreference??true,last=0,frame=0,visible=true;
     const play=root.querySelector('#intro-play'),motion=root.querySelector('#intro-motion'),clock=root.querySelector('#intro-time'),announce=root.querySelector('#intro-announcement');
     const loop=root.querySelector('.intelligence-loop'),stages=window.AIIS_RENDER.loopStages,loopButtons=[...loop.querySelectorAll('[data-loop-stage]')],loopPlay=loop.querySelector('#loop-play');
     let loopIndex=saved?.loopIndex??0,loopElapsed=saved?.loopElapsed??0,loopPlaying=saved?.loopPlaying??true;
@@ -48,7 +49,7 @@
       if(visible&&!document.hidden){
         if(playing){elapsed+=dt;if(elapsed>=duration){index=(index+1)%slides.length;elapsed%=duration;if(index===frameworkIndex){loopIndex=0;loopElapsed=0;paintLoop();}}paint();}
         if(visualPlaying){
-          if(index===frameworkIndex&&loopPlaying){loopElapsed+=dt;if(loopElapsed>=2000){loopIndex=(loopIndex+1)%stages.length;loopElapsed%=2000;paintLoop();}}
+          if(index===frameworkIndex&&loopPlaying){loopElapsed+=dt;if(loopElapsed>=stageDuration){loopIndex=(loopIndex+1)%stages.length;loopElapsed%=stageDuration;paintLoop();}}
         }
       }
       frame=requestAnimationFrame(tick);
@@ -72,10 +73,9 @@
     }
     function focus(e){if(e.target.closest('.intro-playback'))return;playing=false;playback();}
     function visibility(){last=0;visualControls();}
-    function preference(){playing=!reduce.matches;visualPlaying=motionPreference??!reduce.matches;last=0;playback();}
     const observer=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;last=0;visualControls();},{threshold:.1});observer.observe(root);
-    document.addEventListener('visibilitychange',visibility);root.addEventListener('click',click);root.addEventListener('keydown',key);root.addEventListener('focusin',focus);reduce.addEventListener('change',preference);
+    document.addEventListener('visibilitychange',visibility);root.addEventListener('click',click);root.addEventListener('keydown',key);root.addEventListener('focusin',focus);
     paint();paintLoop();playback();frame=requestAnimationFrame(tick);
-    return {getState(){return {slide:index,elapsed,playing,visualPlaying,loopIndex,loopElapsed,loopPlaying};},destroy(){cancelAnimationFrame(frame);observer.disconnect();document.removeEventListener('visibilitychange',visibility);root.removeEventListener('click',click);root.removeEventListener('keydown',key);root.removeEventListener('focusin',focus);reduce.removeEventListener('change',preference);}};
+    return {getState(){return {slide:index,elapsed,playing,visualPlaying,loopIndex,loopElapsed,loopPlaying};},destroy(){cancelAnimationFrame(frame);observer.disconnect();document.removeEventListener('visibilitychange',visibility);root.removeEventListener('click',click);root.removeEventListener('keydown',key);root.removeEventListener('focusin',focus);}};
   };
 })();

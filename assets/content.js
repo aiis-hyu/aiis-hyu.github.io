@@ -23,7 +23,7 @@ window.AIIS_CONTENT = {
     {image:'lab-life-2025.jpg',date:'2025.02',title:{ko:'랩미팅, 그리고 점심',en:'A lab meeting, then lunch'},caption:{ko:'연구실의 일상',en:'An ordinary day in the lab'},position:'50% 50%'}
   ],
   members: [
-    {ko:'이형기',en:'Hyoungki Lee',photo:null,group:'phd',email:'hasra17th@gmail.com'},
+    {ko:'이형기',en:'Hyoungki Lee',photo:null,group:'phd',status:{ko:'파트타임 · 삼성전자 재직 중',en:'Part-time · Currently at Samsung Electronics'},email:'hasra17th@gmail.com'},
     {ko:'지예림',programStart:'2026.09',en:'Yerim Ji',photo:null,group:'combined',email:'jyr030306@hanyang.ac.kr'},
     {ko:'노민아',programStart:'2026.09',en:'Minah Noh',photo:null,group:'combined',email:'nomin10@hanyang.ac.kr'},
     {ko:'심민성',programStart:'2026.09',en:'Minsung Shim',photo:null,group:'master',email:'smse560@hanyang.ac.kr'},

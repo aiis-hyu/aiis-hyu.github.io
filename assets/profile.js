@@ -12,6 +12,27 @@ window.AIIS_PROFILE = {
     {period:'2009.03 — 2011.02',degree:'M.S.',organization:'Hanyang University',field:{ko:'산업경영공학',en:'Industrial and Management Engineering'},place:'Ansan, South Korea'},
     {period:'2005.03 — 2009.02',degree:'B.S.',organization:'Hanyang University ERICA',field:{ko:'기계정보경영공학',en:'Mechanical and Information & Industrial Engineering'},place:'Ansan, South Korea'}
   ],
+  teaching: [
+    {school:{ko:'한양대학교 ERICA',en:'Hanyang University ERICA'},courses:[
+      {code:'INE4105',ko:'산업인공지능',en:'Industrial Artificial Intelligence',terms:[[2023,1],[2024,1],[2025,1]],url:'https://sites.google.com/view/ha-an/education/lectures_1/ine4105-industrial-artificial-intelligence'},
+      {code:'INE3101',ko:'제품설계및제작',en:'Product Design and Manufacturing',terms:[[2023,2],[2024,2],[2025,2]],url:'https://sites.google.com/view/ha-an/education/lectures_1/ine3101-product-design-and-manufacturing'},
+      {code:'INE2022',ko:'생산경영',en:'Production Management',terms:[[2024,1]]},
+      {code:'INE1004',ko:'경영과학개론',en:'Introduction to Management Science',terms:[[2023,1],[2024,1]]},
+      {code:'INE4107',ko:'인공지능과알고리즘',en:'Artificial Intelligence and Algorithms',terms:[[2024,2]]},
+      {code:'IBE8073',ko:'강화학습이론및응용',en:'Reinforcement Learning: Theory and Application',graduate:true,terms:[[2023,2],[2025,2]]},
+      {code:'IBE8064',ko:'산업경영공학논문연구',en:'Thesis Research in Industrial and Management Engineering',graduate:true,terms:[[2025,1]]}
+    ]},
+    {school:{ko:'경기대학교',en:'Kyonggi University'},courses:[
+      {code:'EC721',ko:'경영과학1및실습',en:'Operations Research 1',terms:[[2021,1],[2022,1],[2023,1]]},
+      {code:'EC746',ko:'산업경영공학종합설계',en:'Capstone Design',terms:[[2021,1],[2022,1]]},
+      {code:'EC028',ko:'산업경영공학전공및진로탐색',en:'Introduction to Industrial and Management Engineering',terms:[[2021,1],[2022,1]]},
+      {code:'EC736',ko:'프로그래밍응용',en:'Application of Programming',terms:[[2021,2],[2022,2]]},
+      {code:'EC771',ko:'제품설계및개발(캡스톤디자인)',en:'Product Design and Development',terms:[[2021,2],[2022,2]]},
+      {code:'EC014',ko:'산업경영공학개별진로연구',en:'Special Topics for Industrial Engineers',terms:[[2021,2]]},
+      {code:'CC102',ko:'데이터분석프로그래밍',en:'Programming for Data Analytics',graduate:true,terms:[[2021,2]]},
+      {code:'EC744',ko:'시뮬레이션및실습',en:'Simulation Modeling and Application',terms:[[2022,2]]}
+    ]}
+  ],
   honors: [
     ['2020','Best Paper Award','KSME Fall/Spring Online Conference · Korean Society of Mechanical Engineers'],
     ['2016','DFMLC Scholarship in Scholar Development Program','Design for Manufacturing and Life Cycle · ASME'],
