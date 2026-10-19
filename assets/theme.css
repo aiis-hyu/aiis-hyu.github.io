@@ -1,0 +1,165 @@
+/* AIIS visual system: ink headings, blue actions, slate copy, tinted labels. */
+:root{
+ --ink:#243851;--body:#425269;--muted:#64748b;
+ --accent:#2867b2;--accent-light:#edf4fd;--navy:#213b5d;
+ --line:#dbe4ef;--pale:#f5f8fc;--signal:#19745f;
+ --tag-ink:#2b60a1;--tag-fill:#edf4ff;--tag-line:#cedff4;
+}
+body{color:var(--body);background:#fff}
+#main :is(h1,h2,h3,h4){color:var(--ink);font-weight:700}
+#main :is(p,dt,dd,li){color:var(--body)}
+#main :is(.eyebrow,.section-number){color:var(--accent);font-weight:700}
+#main :is(.news-meta,.member-other-name,.member-period,.cv-place,.project-description dt,.project-section-heading>span,.project-year>h3>span,.project-history-note,.research-partners>span,.research-media-card figcaption p,.video-kind,.gallery-caption>span,.results-meta>span,.professor-office,.course-english,.course-terms){color:var(--muted)}
+#main :is(.cv-date,.project-period,.project-year .project-period,.related-pubs a>span:first-child){color:#5b7290;font-weight:600}
+#main :is(.results-meta p,.research-area-index a span,.cv-section-heading>span,.project-overview strong,.project-year>h3,.research-area-number){color:var(--accent)}
+#main .member-status{color:#546b87;font-weight:600}
+#main .pub-venue{color:#5a718e}
+#main .pub-authors{color:var(--body)}
+.text-link,#main .pub-link,#main .copy-citation,#main .pub-details summary{color:var(--accent)}
+.text-link:hover,#main .pub-link:hover{color:#184d8b}
+.text-link span,.home-news-item h3 span{color:#5a8ac4}
+.button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.button.primary:hover{background:#1d5596;border-color:#1d5596}
+button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #84afdf;outline-offset:4px}
+
+/* A restrained blue identity for navigation and page section headings. */
+.site-header{border-bottom-color:#e2e9f2;background:rgba(255,255,255,.97)}
+#main-nav a{color:#4e617c}
+#main-nav a[aria-current=page],#main-nav a:hover{color:var(--accent)}
+#main-nav a[aria-current=page]:after{height:3px;border-radius:3px;background:var(--accent)}
+.language-switch{border-color:var(--line);border-radius:6px;padding:3px;background:#f5f8fc}
+.language-switch button{color:#60728c;border-radius:3px}
+.language-switch button[aria-pressed=true]{background:var(--accent);color:white}
+.page-hero{background:linear-gradient(110deg,#edf3fb 0%,#f8fafd 65%,#edf3fa 100%);border-color:var(--line)}
+.page-hero .eyebrow{letter-spacing:1.4px}
+#main .page-hero h1{color:#203c61}
+.section-heading h2,.people-group-heading h2{position:relative;padding-bottom:11px}
+.section-heading h2:after,.people-group-heading h2:after{content:'';position:absolute;left:0;bottom:0;width:34px;height:3px;border-radius:3px;background:#6c97cf}
+.profile-nav a{color:#5d718d}
+.profile-nav a:hover{color:var(--accent)}
+
+/* Actual category labels, separate from dates, counts and action buttons. */
+#main .tag{
+ display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;
+ width:fit-content;max-width:100%;padding:3px 10px;min-height:28px;
+ border:1px solid var(--tag-line);border-radius:6px;background:var(--tag-fill);
+ color:var(--tag-ink);font-size:14px;font-weight:600;line-height:1.5;
+ letter-spacing:0;text-transform:none;white-space:normal;word-break:keep-all;
+}
+.tag--paper,.tag--blue{--tag-ink:#2b60a1;--tag-fill:#edf4ff;--tag-line:#cedff4}
+.tag--education{--tag-ink:#5b6195;--tag-fill:#f2f2fa;--tag-line:#dfe0ef}
+.tag--project{--tag-ink:#35627e;--tag-fill:#eef6fa;--tag-line:#d3e4ed}
+.tag--people,.tag--neutral{--tag-ink:#5c6f89;--tag-fill:#f4f6fa;--tag-line:#dce3ec}
+.tag--event{--tag-ink:#52658c;--tag-fill:#f1f4fb;--tag-line:#d9e1f0}
+.tag--award{--tag-ink:#856323;--tag-fill:#fbf5e9;--tag-line:#eadcbe}
+.tag--live{--tag-ink:#206f5c;--tag-fill:#edf7f2;--tag-line:#cfe5da}
+.tag--code{--tag-ink:#2c609e;--tag-fill:#f0f5fc;--tag-line:#d4e1f1}
+.news-meta{flex-wrap:wrap;gap:10px 12px;align-items:center}
+.news-meta time{color:var(--muted);font-weight:400;letter-spacing:.2px}
+.news-article .news-meta .tag{display:inline-flex;margin-top:9px}
+.home-news-item{transition:border-color .2s ease}
+.home-news-item h3 a{color:#263f61}
+.home-news-item h3 a:hover{color:var(--accent)}
+#main .home-news-item>p{color:var(--body)}
+.portrait-member .tag{margin-bottom:3px}
+.portrait-placeholder{background:linear-gradient(140deg,#f7f9fc,#eaf0f8)}
+.portrait{border-color:#dbe4ef}
+.publication-topline{gap:8px;margin-bottom:13px}
+.publication-year>h2{color:var(--accent)}
+#main .publication-year h2>span{color:var(--muted);font-weight:400}
+.publication h3{line-height:1.6}
+.pub-kind{border-color:#d9e3f1;border-radius:9px;overflow:hidden}
+.pub-kind button{color:#526782;background:#f9fbfe}
+#main .pub-kind b{color:#5276a2}
+.pub-kind button[aria-pressed=true]{color:white;background:var(--accent);box-shadow:none}
+#main .pub-kind button[aria-pressed=true] b{color:#fff}
+.pub-kind button:hover:not([aria-pressed=true]){background:#edf4fd}
+.news-filters button,.project-year-index a{border-radius:6px;border-color:#d5e0ee;color:#516a8b;background:#f8fafd}
+.news-filters button[aria-pressed=true]{color:white;background:var(--accent);border-color:var(--accent)}
+.project-year-index a:hover{background:var(--accent);color:white}
+.pub-actions .pub-link{padding:3px 9px;border:1px solid #d4e0ef;background:#f6f9fe;border-radius:5px;line-height:1.65}
+.pub-filters select,.pub-filters input{border-color:#d7e1ee;border-radius:6px;background:#fbfcfe}
+.search-field{border-color:#d7e1ee;border-radius:6px;background:#fbfcfe}
+.results-meta{border-color:var(--line)}
+.project-overview>a{border-color:#d6e3f2;border-radius:10px;background:linear-gradient(125deg,#f7faff,#edf3fc)}
+.project-overview>a:first-child{border-color:#cbdcf0;background:linear-gradient(125deg,#edf5ff,#f7faff)}
+#main .project-overview>a>span{color:var(--accent)}
+#main .project-overview small{color:#627793;font-weight:400}
+.research-area-index a:hover{background:var(--accent-light)}
+.research-media-card{border-color:#dae4f0;border-radius:9px;overflow:hidden}
+#main .research-publications summary{color:#3e6ea7}
+.research-publications summary span{background:#e9f1fc;padding:2px 7px;border-radius:5px}
+#main .teaching-school>h3{color:#3569a8}
+.course-list{border-top-color:#8eafd5}
+.course-code.tag,.course-level.tag{display:inline-flex}
+.course-level.tag{margin-top:7px}
+.course-detail h4{color:#2b4261}
+#main .contact-slide-details dt,#main .contact-details dt{color:#6380a2;font-weight:600}
+.contact-email{color:var(--accent)}
+.contact-grid section+section{background:#f3f7fc}
+.site-footer,.site-footer p,.site-footer .footer-copyright{color:#5d728b;background:#f7f9fc}
+.site-footer .footer-affiliation{color:#4a6483;font-weight:600}
+
+/* The TITLE echoes the logo's facets and connected nodes, with cool light. */
+.intro-carousel{border:1px solid #d3e0f0;border-radius:14px;box-shadow:0 12px 34px #2d51800c;background:#f4f8fd}
+.intro-topline{background:#f0f5fc;border-color:#dce6f3;color:#476991}
+.intro-topline>span:first-child{font-weight:700;letter-spacing:1px}
+.intro-topline #intro-count{color:#5179aa;padding:2px 8px;background:#fff;border:1px solid #dce7f4;border-radius:5px}
+.slide-title{isolation:isolate;background:linear-gradient(120deg,#f9fbff 0%,#eaf2fc 48%,#f5f8fe 72%,#dce8f7 100%)}
+.slide-title:before{display:none}
+.slide-title:after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 26% 42%,#ffffffdb 0%,#ffffff75 29%,transparent 60%);z-index:0;pointer-events:none}
+.title-atmosphere{position:absolute;inset:0;background:url('title-atmosphere.svg') center/cover no-repeat;z-index:0;pointer-events:none}
+.title-content{position:relative;z-index:1}
+.title-banner{filter:drop-shadow(0 18px 23px #23487624)}
+.title-affiliation{position:relative}
+#main .title-affiliation strong{color:#355b88}
+#main .title-affiliation .affiliation-department{color:#516e91}
+#main .title-vision h2{color:#243e60}
+#main .title-vision h2 em{color:#3475c2}
+#main .title-vision>p{color:#5b7290}
+.title-vision h2 em{position:relative;display:inline-block}
+.title-vision h2 em:after{content:'';display:block;height:3px;width:38px;background:#8eb4df;border-radius:3px;margin-top:13px}
+.intro-controls{border-color:#d6e3f1;background:#fff}
+.intro-playback button,.intro-arrows button{border-color:#d7e2f0;color:#4c6f9b;border-radius:5px}
+.intro-playback button:hover,.intro-arrows button:hover{background:#edf4fd;border-color:#aac6e6}
+.intro-playback #intro-motion[aria-pressed=true]{color:#366aa6;background:#eef5ff;border-color:#d4e3f6}
+.intro-segments button{color:#71839a}
+.intro-segments button[aria-pressed=true]{color:var(--accent)}
+.segment-label small{color:#5f7590}.segment-track{background:#e6edf6;border-radius:3px}.segment-fill{background:#4c83c7}
+#intro-time{color:#57718f}
+.slide-framework{background:linear-gradient(115deg,#f8fafd,#eef4fc)}
+.intelligence-loop{border-color:#cbdcf0;background-color:#f5f9fe;background-image:radial-gradient(#cedced .65px,transparent .65px);border-radius:10px}
+.loop-heading{color:#58759a}.loop-index{color:var(--signal)}
+.loop-node{border-color:#d1dff0;background:#fff;border-radius:6px}
+.loop-node[aria-pressed=true]{border-color:#78a5d9;background:#eaf3ff;box-shadow:inset 3px 0 #3979c6}
+.loop-node[aria-pressed=true] strong,.loop-node[aria-pressed=true] .node-number{color:#2c65aa}
+.loop-node small,.node-number{color:#6c809b}
+.wire-flow{stroke:#398b80}.wire-base{stroke:#c2d5eb}
+.loop-core{background:#28466e;border-radius:5px}
+.loop-description,.loop-controls{border-color:#d7e3f2}
+.loop-controls,.loop-controls button{color:#687f9c}
+.loop-controls button{border-radius:5px;border-color:#d0dff0;background:#fff}
+.slide-contact{background:linear-gradient(125deg,#f9fbfe,#edf4fc)}
+#main .contact-campus{color:#2a4971}.contact-campus span{color:#54749c}
+.contact-slide-details{border-color:#cbdcf0}
+
+@media(max-width:800px){
+ .title-atmosphere{background-size:auto 100%;background-position:58% center}
+ .intro-topline>span:first-child{letter-spacing:.6px}
+}
+@media(max-width:600px){
+ .intro-carousel{border-radius:11px}
+ .title-vision h2 em:after{margin-inline:auto;margin-top:10px;width:32px}
+ .title-affiliation{margin-bottom:15px}
+ .title-body{gap:26px}
+ .title-banner{filter:drop-shadow(0 13px 17px #2b4e7324)}
+ .title-atmosphere{background-position:53% center}
+ .news-article .news-meta .tag{margin-top:0}
+ .course-level.tag{margin-top:0}
+ .pub-kind button{gap:8px}
+}
+@media print{
+ #main :is(p,dt,dd,li){color:#222}
+ .title-atmosphere{display:none}
+ #main .tag{background:#fff;border-color:#aaa;color:#222}
+}
