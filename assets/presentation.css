@@ -179,4 +179,7 @@ html[lang=en] .title-vision>p{font-size:12px;line-height:1.9}
 @media(max-width:360px){
  .title-content{padding-inline:17px}.title-affiliation strong,.affiliation-department{font-size:10px}.title-affiliation p{gap:8px}.title-vision h2{font-size:25px}html[lang=en] .title-vision h2{font-size:22px}.title-research-line{font-size:6px;gap:8px;letter-spacing:1px}.title-research-line i{width:22px}
 }
-@media(prefers-reduced-motion:reduce){.title-banner:after{animation:none;background:none}}
+@media(prefers-reduced-motion:reduce){.intro-carousel:not(.motion-enabled) .title-banner:after{animation:none;background:none}}
+
+/* State labels stay on one line at narrow widths. */
+.intro-playback #intro-motion{min-width:82px;white-space:nowrap}
