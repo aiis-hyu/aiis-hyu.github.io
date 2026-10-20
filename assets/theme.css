@@ -39,11 +39,11 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .profile-nav a:hover{color:var(--accent)}
 
 /* Actual category labels, separate from dates, counts and action buttons. */
-#main .tag{
+#main .tag,#main .member-copy .tag,#main .status-label.tag{
  display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;
- width:fit-content;max-width:100%;padding:3px 10px;min-height:28px;
+ width:fit-content;max-width:100%;padding:3px 9px;min-height:26px;
  border:1px solid var(--tag-line);border-radius:6px;background:var(--tag-fill);
- color:var(--tag-ink);font-size:14px;font-weight:600;line-height:1.5;
+ color:var(--tag-ink);font-size:13px;font-weight:600;line-height:1.5;
  letter-spacing:0;text-transform:none;white-space:normal;word-break:keep-all;
 }
 .tag--paper,.tag--blue{--tag-ink:#2b60a1;--tag-fill:#edf4ff;--tag-line:#cedff4}
@@ -162,4 +162,93 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
  #main :is(p,dt,dd,li){color:#222}
  .title-atmosphere{display:none}
  #main .tag{background:#fff;border-color:#aaa;color:#222}
+}
+
+/* HOME refinement: a closer affiliation lockup and two dimensional scenes. */
+#main .title-affiliation{transform:translateY(8px);margin-bottom:12px;gap:12px}
+#main .title-affiliation .university-symbol{width:36px;height:36px}
+#main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:20px}
+
+.slide-framework{isolation:isolate;background:linear-gradient(125deg,#f8fbff 0%,#eaf2fc 65%,#dce9f8 100%)}
+.slide-framework:before{content:'';position:absolute;width:540px;height:540px;right:-170px;top:-245px;border:1px solid #98b9df55;border-radius:50%;box-shadow:0 0 0 42px #b9cfe91c,0 0 0 84px #b9cfe914;z-index:-1;pointer-events:none}
+.slide-framework:after{content:'';position:absolute;inset:60% -10% -30%;background:repeating-linear-gradient(0deg,transparent 0 49px,#8baed62b 50px 51px),repeating-linear-gradient(90deg,transparent 0 59px,#8baed62b 60px 61px);transform:perspective(500px) rotateX(52deg) rotateZ(-12deg);z-index:-1;pointer-events:none}
+.framework-heading>.eyebrow{display:inline-flex;padding:4px 0;border-bottom:2px solid #8bb1df}
+.slide-framework .intelligence-loop{border:1px solid #bfd3eb;box-shadow:0 16px 35px #30598514,inset 0 1px #fff;background-color:#f9fcff;background-image:radial-gradient(#cbdced .65px,transparent .65px);border-radius:14px}
+.slide-framework .loop-heading{align-items:center;padding-bottom:8px;border-bottom:1px solid #dde8f5}
+.loop-index{background:#edf6f2;border:1px solid #c8e1d7;border-radius:5px;padding:2px 6px}
+.slide-framework .loop-node{border-radius:9px;box-shadow:0 4px 10px #33547a0a;transition:background .3s,border-color .3s,box-shadow .3s}
+.slide-framework .loop-node[aria-pressed=true]{background:linear-gradient(120deg,#e0edff,#f8fbff);border-color:#73a1d6;box-shadow:inset 3px 0 #3979c6,0 5px 15px #3979c61c}
+.node-title{display:flex;align-items:center;gap:7px}
+.node-glyph{width:20px;height:20px;flex:0 0 20px;color:#6a87ac;stroke-width:1.6}
+.loop-node[aria-pressed=true] .node-glyph{color:#2867b2}
+.slide-framework .loop-node small{display:block;margin-top:5px}
+.slide-framework .loop-core{background:linear-gradient(140deg,#3c6796,#203d63);box-shadow:0 6px 14px #28466e2b;border:1px solid #6685ab;border-radius:8px}
+.slide-framework .loop-description{background:#ffffffbd;padding:12px 10px 8px;border:1px solid #dce7f4;border-radius:8px}
+.slide-framework .loop-controls{border:0;margin-top:8px;padding-top:0}
+
+.slide-contact{isolation:isolate;background:radial-gradient(ellipse at 14% 35%,#dbe9fb 0%,transparent 50%),linear-gradient(115deg,#f4f8fe,#e8f1fc)}
+.slide-contact:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(125deg,transparent 44%,#90b1da16 44%,#90b1da16 60%,transparent 60%),repeating-linear-gradient(0deg,transparent 0 43px,#a6bfd514 44px 45px)}
+.contact-slide-intro{position:relative;min-width:0}
+.contact-emblem{display:block;position:relative;isolation:isolate;width:158px;margin:20px 0 18px}
+.contact-emblem:before,.contact-emblem:after{content:'';position:absolute;border-radius:50%;pointer-events:none;z-index:-1}
+.contact-emblem:before{inset:-10px;border:1px solid #9cb9df70;background:#ffffff80;box-shadow:0 12px 26px #395d8f12}
+.contact-emblem:after{inset:-21px;border:1px dashed #98b5d75c}
+.contact-emblem .contact-symbol{position:static;width:100%;margin:0;filter:drop-shadow(0 5px 7px #284a7114)}
+.slide-contact .contact-email{padding-bottom:6px;border-bottom:1px solid #a9c2e0;width:fit-content}
+.slide-contact .contact-slide-details{padding:25px 28px;border:1px solid #cbdbed;border-radius:14px;background:#ffffffd9;box-shadow:0 14px 30px #2d517814;position:relative}
+.contact-slide-details:before{content:'';position:absolute;left:28px;right:28px;top:0;height:3px;background:linear-gradient(90deg,#427fbe,#b2ccec 70%,transparent);border-radius:0 0 3px 3px}
+#main .slide-contact .contact-campus{margin-bottom:17px}
+.slide-contact .contact-slide-details dl{gap:0}
+.slide-contact .contact-slide-details dl>div{padding:12px 0;border-top:1px solid #e1e9f2}
+.slide-contact .contact-slide-details dl>div:last-child{padding-bottom:0}
+.slide-contact .contact-slide-details dt{display:flex;align-items:baseline;gap:7px}
+.contact-detail-icon{width:15px;height:15px;flex:0 0 15px;align-self:flex-start;margin-top:5px;color:#5b83b2;stroke-width:1.7}
+
+@media(max-width:1150px){
+ #main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:19px}
+ .node-title{gap:5px}.node-glyph{width:17px;height:17px;flex-basis:17px}
+ .slide-contact .contact-slide-details{padding:22px}
+ .slide-contact .contact-slide-details dl>div{grid-template-columns:82px 1fr;gap:12px}
+}
+@media(max-width:800px){
+ #main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:17px}
+ #main .title-affiliation .university-symbol{width:34px;height:34px}
+ .slide-framework .loop-heading{padding-bottom:7px}
+ .slide-framework .loop-controls{margin-top:7px}
+ .contact-emblem{width:124px}
+ .slide-contact .contact-slide-details dl>div{grid-template-columns:1fr;gap:3px;padding-block:9px}
+}
+@media(max-width:600px){
+ #main .title-affiliation{gap:8px;margin-bottom:12px;transform:translateY(6px)}
+ #main .title-affiliation p{gap:8px}
+ #main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:14px;letter-spacing:-.3px}
+ #main .title-affiliation .university-symbol{width:24px;height:24px}
+ .slide-framework .loop-description{padding:10px 8px 6px}
+ .slide-framework .loop-heading{font-size:10px}
+ .node-glyph{width:18px;height:18px;flex-basis:18px}
+ .slide-contact{padding:24px 18px;gap:22px}
+ .slide-contact .contact-slide-intro{display:grid;grid-template-columns:78px minmax(0,1fr);column-gap:16px;align-content:center;min-height:114px;padding-left:0}
+ .slide-contact .contact-slide-intro>.eyebrow,.slide-contact .contact-email,.slide-contact .contact-slide-note{grid-column:2}
+ .contact-emblem{grid-column:1;grid-row:1 / 4;align-self:center;width:64px;margin:0 0 0 4px}
+ .contact-emblem .contact-symbol{position:static;width:100%;margin:0}
+ .contact-emblem:before{inset:-6px}.contact-emblem:after{inset:-13px}
+ .slide-contact .contact-email{font-size:17px;margin:7px 0 0;letter-spacing:-.45px}
+ .slide-contact .contact-slide-note{margin-top:7px}
+ .slide-contact .contact-slide-details{padding:21px 19px}
+ .slide-contact .contact-slide-details dl>div{grid-template-columns:82px minmax(0,1fr);gap:10px;padding-block:11px}
+ .contact-slide-details:before{left:19px;right:19px}
+}
+@media(max-width:400px){
+ #main .title-affiliation{gap:6px}
+ #main .title-affiliation p{gap:6px}
+ #main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:13px;letter-spacing:-.4px}
+ #main .title-affiliation .university-symbol{width:21px;height:21px}
+ .slide-framework .loop-node{padding-inline:6px}
+ .node-title{gap:4px}.node-glyph{width:15px;height:15px;flex-basis:15px}
+ .slide-contact .contact-slide-intro{grid-template-columns:57px minmax(0,1fr);column-gap:12px}
+ .contact-emblem{width:48px}
+ .slide-contact .contact-email{font-size:15px}
+ .slide-contact .contact-slide-details{padding:18px 15px}
+ .slide-contact .contact-slide-details dl>div{grid-template-columns:1fr;gap:3px;padding-block:8px}
+ #main .slide-contact .contact-campus{font-size:18px;margin-bottom:12px}
 }

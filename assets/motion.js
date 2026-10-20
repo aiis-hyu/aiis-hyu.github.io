@@ -4,7 +4,7 @@
     if(!root)return {destroy(){},getState(){return saved;}};
     const slides=[...root.querySelectorAll('.intro-slide')],segments=[...root.querySelectorAll('[data-intro-slide]')],names=['Title','Research Framework','Contact'];
     const frameworkIndex=slides.findIndex(slide=>slide.classList.contains('slide-framework'));
-    const duration=4000,total=duration*slides.length,stageDuration=duration/4;
+    const total=20000,duration=total/slides.length,stageDuration=duration/4;
     let motionPreference=null;
     try{const value=localStorage.getItem('aiis-visual-motion');if(value==='on'||value==='off')motionPreference=value==='on';}catch{}
     let index=Math.min(slides.length-1,Math.max(0,saved?.slide??0)),elapsed=saved?.elapsed??0,playing=saved?.playing??true;
