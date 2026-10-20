@@ -183,8 +183,8 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .loop-node[aria-pressed=true] .node-glyph{color:#2867b2}
 .slide-framework .loop-node small{display:block;margin-top:5px}
 .slide-framework .loop-core{background:linear-gradient(140deg,#3c6796,#203d63);box-shadow:0 6px 14px #28466e2b;border:1px solid #6685ab;border-radius:8px}
-.slide-framework .loop-description{background:#ffffffbd;padding:12px 10px 8px;border:1px solid #dce7f4;border-radius:8px}
-.slide-framework .loop-controls{border:0;margin-top:8px;padding-top:0}
+.slide-framework .loop-description{background:#ffffffbd;padding:12px 10px;border:1px solid #dce7f4;border-radius:8px;min-height:76px}
+.slide-framework .loop-controls{border:0;margin-top:8px;padding-top:0;justify-content:flex-end}
 
 .slide-contact{isolation:isolate;background:radial-gradient(ellipse at 14% 35%,#dbe9fb 0%,transparent 50%),linear-gradient(115deg,#f4f8fe,#e8f1fc)}
 .slide-contact:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(125deg,transparent 44%,#90b1da16 44%,#90b1da16 60%,transparent 60%),repeating-linear-gradient(0deg,transparent 0 43px,#a6bfd514 44px 45px)}

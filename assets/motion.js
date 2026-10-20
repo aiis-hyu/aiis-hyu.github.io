@@ -25,7 +25,6 @@
       loopButtons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===loopIndex)));
       loop.querySelector('#loop-index').textContent='0'+(loopIndex+1)+' / 04';
       loop.querySelector('#loop-description').textContent=stage.description[lang];
-      loop.querySelector('#loop-research-link').href=window.AIIS_RENDER.href('research.html',lang,stage.research);
     }
     function visualControls(){
       motion.setAttribute('aria-pressed',String(visualPlaying));motion.setAttribute('aria-label',lang==='ko'?(visualPlaying?'모션 끄기':'모션 켜기'):(visualPlaying?'Turn motion off':'Turn motion on'));
