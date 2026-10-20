@@ -199,16 +199,16 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .contact-slide-details:before{content:'';position:absolute;left:28px;right:28px;top:0;height:3px;background:linear-gradient(90deg,#427fbe,#b2ccec 70%,transparent);border-radius:0 0 3px 3px}
 #main .slide-contact .contact-campus{margin-bottom:17px}
 .slide-contact .contact-slide-details dl{gap:0}
-.slide-contact .contact-slide-details dl>div{padding:12px 0;border-top:1px solid #e1e9f2}
+.slide-contact .contact-slide-details dl>div{grid-template-columns:92px minmax(0,1fr);gap:16px;padding:12px 0;border-top:1px solid #e1e9f2}
 .slide-contact .contact-slide-details dl>div:last-child{padding-bottom:0}
-.slide-contact .contact-slide-details dt{display:flex;align-items:baseline;gap:7px}
+.slide-contact .contact-slide-details dt{display:flex;align-items:baseline;gap:7px;white-space:nowrap}
 .contact-detail-icon{width:15px;height:15px;flex:0 0 15px;align-self:flex-start;margin-top:5px;color:#5b83b2;stroke-width:1.7}
 
 @media(max-width:1150px){
  #main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:19px}
  .node-title{gap:5px}.node-glyph{width:17px;height:17px;flex-basis:17px}
  .slide-contact .contact-slide-details{padding:22px}
- .slide-contact .contact-slide-details dl>div{grid-template-columns:82px 1fr;gap:12px}
+ .slide-contact .contact-slide-details dl>div{grid-template-columns:92px minmax(0,1fr);gap:12px}
 }
 @media(max-width:800px){
  #main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:17px}
@@ -235,7 +235,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
  .slide-contact .contact-email{font-size:17px;margin:7px 0 0;letter-spacing:-.45px}
  .slide-contact .contact-slide-note{margin-top:7px}
  .slide-contact .contact-slide-details{padding:21px 19px}
- .slide-contact .contact-slide-details dl>div{grid-template-columns:82px minmax(0,1fr);gap:10px;padding-block:11px}
+ .slide-contact .contact-slide-details dl>div{grid-template-columns:92px minmax(0,1fr);gap:10px;padding-block:11px}
  .contact-slide-details:before{left:19px;right:19px}
 }
 @media(max-width:400px){
@@ -251,4 +251,8 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
  .slide-contact .contact-slide-details{padding:18px 15px}
  .slide-contact .contact-slide-details dl>div{grid-template-columns:1fr;gap:3px;padding-block:8px}
  #main .slide-contact .contact-campus{font-size:18px;margin-bottom:12px}
+}
+@media(max-width:360px){
+ .slide-framework .node-glyph{display:none}
+ html[lang=en] #main .title-affiliation strong,html[lang=en] #main .title-affiliation .affiliation-department{font-size:12.5px}
 }
