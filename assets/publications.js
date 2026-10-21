@@ -32,6 +32,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "7.7",
       "year": 2025
+    },
+    "ranking": {
+      "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+      "year": 2025,
+      "quartile": "Q1"
     }
   },
   {
@@ -144,6 +149,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "11.3",
       "year": 2025
+    },
+    "ranking": {
+      "category": "Engineering & Manufacturing",
+      "year": 2025,
+      "topPercent": "7"
     }
   },
   {
@@ -270,6 +280,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "12.2",
       "year": 2023
+    },
+    "ranking": {
+      "category": "Operations Research & Management Science",
+      "year": 2023,
+      "topPercent": "1"
     }
   },
   {
@@ -318,6 +333,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "11",
       "year": 2022
+    },
+    "ranking": {
+      "category": "Engineering & Manufacturing",
+      "year": 2022,
+      "topPercent": "9"
     }
   },
   {
@@ -435,6 +455,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "6.167",
       "year": 2021
+    },
+    "ranking": {
+      "category": "Engineering & Multidisciplinary",
+      "year": 2021,
+      "topPercent": "8"
     }
   },
   {
@@ -469,6 +494,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "11.632",
       "year": 2021
+    },
+    "ranking": {
+      "category": "Engineering & Manufacturing",
+      "year": 2021,
+      "topPercent": "1"
     }
   },
   {
@@ -491,6 +521,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "10.998",
       "year": 2020
+    },
+    "ranking": {
+      "category": "Engineering & Manufacturing",
+      "year": 2020,
+      "topPercent": "1"
     }
   },
   {
@@ -513,6 +548,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "8.568",
       "year": 2020
+    },
+    "ranking": {
+      "category": "Operations Research & Management Science",
+      "year": 2020,
+      "topPercent": "2"
     }
   },
   {
@@ -587,6 +627,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "3.642",
       "year": 2018
+    },
+    "ranking": {
+      "category": "Operations Research & Management Science",
+      "year": 2018,
+      "quartile": "Q1"
     }
   },
   {
@@ -609,6 +654,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "7.173",
       "year": 2018
+    },
+    "ranking": {
+      "category": "Engineering & Manufacturing",
+      "year": 2018,
+      "topPercent": "1.1"
     }
   },
   {
@@ -657,6 +707,11 @@ window.AIIS_PUBLICATIONS = [
     "impactFactor": {
       "value": "4.407",
       "year": 2017
+    },
+    "ranking": {
+      "category": "Operations Research & Management Science",
+      "year": 2017,
+      "topPercent": "3"
     }
   },
   {

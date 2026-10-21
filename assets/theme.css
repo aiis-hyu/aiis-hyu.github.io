@@ -260,9 +260,6 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 /* 2026-10-21: readable research, affiliation and source metadata. */
 .slide-framework .loop-description{background:none;border:0;border-radius:0;box-shadow:none;text-align:center;padding:12px 10px;}
 .slide-framework .loop-description p{margin-inline:auto;text-align:center;max-width:580px;}
-.home-manifesto{padding-block:34px 4px;text-align:center;}
-.home-manifesto p{max-width:980px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;font-size:clamp(21px,2.1vw,28px);font-weight:400;line-height:1.55;letter-spacing:-.3px;color:#516982;text-wrap:balance;}
-.home-manifesto em{font-style:italic;color:#315e99;}
 .research-video>button:before{z-index:1;background:linear-gradient(180deg,#101f332e,transparent 38%,#101f3399);background-size:auto;}
 .video-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
 .research-video .video-kind,.research-video .video-play,.research-video .video-action{position:relative;z-index:2;}
@@ -280,7 +277,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .news-paper p>span{display:block;font-size:12px;color:#64748b;margin-bottom:3px;}
 .news-paper-title strong{font-size:16px;color:#2a4d79;}
 .news-paper-authors{font-size:14px;}
-@media(max-width:600px){.home-manifesto{padding-top:25px}.home-manifesto p{font-size:21px}.professor-affiliation{font-size:14px}.news-paper-title strong{font-size:15px}}
+@media(max-width:600px){.professor-affiliation{font-size:14px}.news-paper-title strong{font-size:15px}}
 
 /* Sponsor marks occupy an independent column, outside project metadata. */
 #main .project-entry{grid-template-columns:160px minmax(0,1fr) 150px;gap:24px;padding:24px 0;align-items:start;}
@@ -306,3 +303,12 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
  #main .project-entry{grid-template-columns:minmax(0,1fr) 112px;gap:11px 10px;}
  .project-sponsor .funder-logo{width:112px;height:30px;}
 }
+
+/* Keep the lab vision within the opening slide; journal rankings retain source years. */
+#main .title-slogan{max-width:850px;margin:24px auto 0;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-weight:400;line-height:1.6;letter-spacing:0;color:#516982;text-align:center;text-wrap:balance;}
+#main .title-slogan em{font-style:italic;color:#315e99;}
+#main .journal-ranking{margin:0 0 12px;font-size:14px;line-height:1.7;color:#53687f;}
+#main .journal-ranking strong{font-weight:700;color:#2867b2;}
+#main .journal-ranking small{font-size:13px;color:#64748b;white-space:nowrap;}
+@media(max-width:800px){#main .title-slogan{font-size:15px;max-width:680px;margin-top:20px;}}
+@media(max-width:600px){#main .title-slogan{font-size:14px;max-width:360px;margin-top:20px;line-height:1.65;}}
