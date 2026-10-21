@@ -268,10 +268,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .research-video .video-kind,.research-video .video-play,.research-video .video-action{position:relative;z-index:2;}
 .research-video .video-kind,.research-video .video-action{color:#fff!important;text-shadow:0 1px 4px #0008;}
 .research-video .video-play{color:#2867b2;background:#fff;box-shadow:0 5px 22px #142b4c40;}
-.project-description dd{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;}
-.funder-logo{display:block;max-width:166px;width:auto;height:40px;object-fit:contain;object-position:left center;background:#fff;padding:3px;border-radius:3px;}
-.funder-logo[src$="hanyang-symbol.svg"],.funder-logo[src$="funder-nsf.png"]{width:48px;height:48px;}
-.project-description dd>span{flex:1 1 240px;}
+
 .professor-affiliation{font-size:15px;line-height:1.85;word-break:keep-all;}
 .impact-factor{display:flex;align-items:baseline;gap:8px;font-size:14px;margin:12px 0;color:#53687f;}
 .impact-factor strong{color:#2867b2;font-size:16px;}
@@ -283,4 +280,29 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .news-paper p>span{display:block;font-size:12px;color:#64748b;margin-bottom:3px;}
 .news-paper-title strong{font-size:16px;color:#2a4d79;}
 .news-paper-authors{font-size:14px;}
-@media(max-width:600px){.home-manifesto{padding-top:25px}.home-manifesto p{font-size:21px}.funder-logo{max-width:145px;height:35px}.project-description dd{gap:9px}.professor-affiliation{font-size:14px}.news-paper-title strong{font-size:15px}}
+@media(max-width:600px){.home-manifesto{padding-top:25px}.home-manifesto p{font-size:21px}.professor-affiliation{font-size:14px}.news-paper-title strong{font-size:15px}}
+
+/* Sponsor marks occupy an independent column, outside project metadata. */
+#main .project-entry{grid-template-columns:160px minmax(0,1fr) 150px;gap:24px;padding:24px 0;align-items:start;}
+#main .project-description{min-width:0;}
+#main .project-description dl{margin-top:8px;display:block;}
+#main .project-description dl>div{display:flex;align-items:baseline;gap:10px;}
+#main .project-description dt{min-width:0;flex:0 0 auto;}
+#main .project-description dd{display:block;min-width:0;overflow-wrap:anywhere;}
+.project-sponsor{display:flex;align-items:center;justify-content:flex-end;align-self:center;min-width:0;}
+.project-sponsor .funder-logo{display:block;width:150px;height:44px;max-width:100%;object-fit:contain;object-position:right center;padding:0;background:none;border-radius:0;}
+@media(max-width:1000px){
+ #main .project-entry{grid-template-columns:142px minmax(0,1fr) 132px;gap:20px;}
+ .project-sponsor .funder-logo{width:132px;height:40px;}
+}
+@media(max-width:760px){
+ #main .project-entry{grid-template-columns:minmax(0,1fr) 132px;gap:12px 18px;padding:22px 0;}
+ #main .project-period{grid-column:1;grid-row:1;align-self:center;}
+ #main .project-description{grid-column:1 / -1;grid-row:2;}
+ .project-sponsor{grid-column:2;grid-row:1;}
+ .project-sponsor .funder-logo{height:34px;}
+}
+@media(max-width:400px){
+ #main .project-entry{grid-template-columns:minmax(0,1fr) 112px;gap:11px 10px;}
+ .project-sponsor .funder-logo{width:112px;height:30px;}
+}
