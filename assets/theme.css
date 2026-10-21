@@ -305,16 +305,11 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 }
 
 /* Keep the lab vision within the opening slide; journal rankings retain source years. */
-#main .title-slogan{position:absolute;z-index:1;top:28px;left:32px;right:32px;margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(10px,1.2vw,15px);font-weight:400;line-height:1.6;letter-spacing:0;color:#516982;text-align:center;white-space:nowrap;}
-#main .title-slogan .slogan-focus{font-weight:700;color:#3e5877;}
-#main .title-slogan .slogan-keyword{font-size:1.06em;font-weight:700;font-style:italic;white-space:nowrap;color:var(--keyword-ink,#38679f);text-decoration-line:underline;text-decoration-color:var(--keyword-line,#b2cbe7);text-decoration-thickness:2px;text-underline-offset:4px;text-decoration-skip-ink:none;}
-#main .title-slogan .keyword-connected{--keyword-ink:#38679f;--keyword-line:#afcbe9;}
-#main .title-slogan .keyword-realtime{--keyword-ink:#4c6d94;--keyword-line:#bfd0e2;}
-#main .title-slogan .keyword-intelligent{--keyword-ink:#2869b0;--keyword-line:#8db8e5;}
-#main .title-slogan .keyword-sustainable{--keyword-ink:#3e7978;--keyword-line:#afd0cb;}
-#main .title-slogan .keyword-autonomous{--keyword-ink:#2b4772;--keyword-line:#9db6d7;}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url('fonts/cormorant-garamond-italic-latin.woff2') format('woff2');}
+#main .title-slogan{position:absolute;z-index:1;top:28px;left:32px;right:32px;margin:0;font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-size:clamp(10px,1.48vw,19px);font-style:italic;font-weight:400;font-synthesis:none;line-height:1.6;letter-spacing:0;color:#385e88;text-align:center;white-space:nowrap;}
+#main .title-slogan .slogan-keyword{font:inherit;color:inherit;text-decoration:none;white-space:nowrap;}
 #main .journal-ranking{margin:0 0 12px;font-size:14px;line-height:1.7;color:#53687f;}
 #main .journal-ranking strong{font-weight:700;color:#2867b2;}
 #main .journal-ranking small{font-size:13px;color:#64748b;white-space:nowrap;}
 @media(max-width:800px){#main .title-slogan{left:24px;right:24px;top:24px;}}
-@media(max-width:600px){#main .title-slogan{left:20px;right:20px;top:24px;font-size:12px;line-height:1.65;white-space:normal;text-wrap:balance;}}
+@media(max-width:600px){#main .title-slogan{left:20px;right:20px;top:24px;font-size:16px;line-height:1.5;white-space:normal;text-wrap:balance;}}

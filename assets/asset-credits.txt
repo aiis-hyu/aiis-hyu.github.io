@@ -44,3 +44,9 @@ Asset: https://upload.wikimedia.org/wikipedia/commons/6/61/Ministry_of_Trade%2C_
 
 Video previews: YouTube publisher thumbnails and Google Drive source videos.
 SLA foundry preview: frame at 00:45 from https://drive.google.com/file/d/1mEwRz69QjBdHfRUScz9o4ycWGFAceSDN/view
+
+Cormorant Garamond Italic (Latin, regular 400)
+Copyright 2015 the Cormorant Project Authors. SIL Open Font License 1.1.
+Font source: https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jD-iNM8.woff2
+License source: https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt
+Bundled license: fonts/CormorantGaramond-OFL.txt
