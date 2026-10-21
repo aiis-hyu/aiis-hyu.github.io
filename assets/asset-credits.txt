@@ -1,0 +1,46 @@
+AIIS Lab website asset sources
+Retrieved 2026-10-21. Logos remain the property of their respective organizations.
+Historical sponsor identities are retained for past research projects.
+
+funder-nrf.svg
+Source: https://www.nrf.re.kr/resources/img/common/header/logo.svg
+Asset: https://www.nrf.re.kr/resources/img/common/header/logo.svg
+
+funder-grrc.png
+Source: http://www.grrc.or.kr/m/thumbs/GRRClogo.png
+Asset: http://www.grrc.or.kr/m/thumbs/GRRClogo.png
+
+funder-kitech.svg
+Source: https://www.kitech.re.kr/images/common/logo.svg
+Asset: https://www.kitech.re.kr/images/common/logo.svg
+
+funder-etri.svg
+Source: https://www.etri.re.kr/images/intro/logo-color.svg
+Asset: https://www.etri.re.kr/images/intro/logo-color.svg
+
+funder-mss.svg
+Source: https://www.mss.go.kr/images/pattern/layout/head_logo.svg
+Asset: https://www.mss.go.kr/images/pattern/layout/head_logo.svg
+
+funder-msit.svg
+Source: https://www.msit.go.kr/images/user/common/logo.svg
+Asset: https://www.msit.go.kr/images/user/common/logo.svg
+
+funder-kgu.png
+Source: https://www.kyonggi.ac.kr/common/images/layout/logo.png
+Asset: https://www.kyonggi.ac.kr/common/images/layout/logo.png
+
+funder-nsf.png
+Source: https://www.nsf.gov/themes/custom/nsf_theme/components/molecules/logo/logo-desktop.png
+Asset: https://www.nsf.gov/themes/custom/nsf_theme/components/molecules/logo/logo-desktop.png
+
+funder-mke.svg
+Source: https://commons.wikimedia.org/wiki/File:지식경제부_로고.svg
+Asset: https://upload.wikimedia.org/wikipedia/commons/1/1b/%EC%A7%80%EC%8B%9D%EA%B2%BD%EC%A0%9C%EB%B6%80_%EB%A1%9C%EA%B3%A0.svg
+
+funder-motie.svg
+Source: https://commons.wikimedia.org/wiki/File:Ministry_of_Trade,_Industry_and_Energy_of_the_Republic_of_Korea_Logo_(English)_(horizontal).svg
+Asset: https://upload.wikimedia.org/wikipedia/commons/6/61/Ministry_of_Trade%2C_Industry_and_Energy_of_the_Republic_of_Korea_Logo_%28English%29_%28horizontal%29.svg
+
+Video previews: YouTube publisher thumbnails and Google Drive source videos.
+SLA foundry preview: frame at 00:45 from https://drive.google.com/file/d/1mEwRz69QjBdHfRUScz9o4ycWGFAceSDN/view
