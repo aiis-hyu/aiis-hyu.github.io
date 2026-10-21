@@ -1,4 +1,3 @@
-// Source: https://sites.google.com/view/ha-an/project · 2026-10-18
 window.AIIS_PROJECTS = [
   {
     "id": "project-01",
@@ -13,7 +12,8 @@ window.AIIS_PROJECTS = [
       "ko": "중소벤처기업부",
       "en": "Ministry of SMEs and Startups"
     },
-    "sourceTitle": "딥테크 챌린지 프로젝트: AI 기반 공정 자동화 및 다공정 적층제조 통합 플랫폼 개발"
+    "sourceTitle": "딥테크 챌린지 프로젝트: AI 기반 공정 자동화 및 다공정 적층제조 통합 플랫폼 개발",
+    "funderLogo": "funder-mss.svg"
   },
   {
     "id": "project-02",
@@ -28,7 +28,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "Ministry of Trade, Industry and Energy (MOTIE), Korea"
     },
-    "sourceTitle": "산업인공지능제조혁신 전문인력양성사업"
+    "sourceTitle": "산업인공지능제조혁신 전문인력양성사업",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-03",
@@ -43,7 +44,8 @@ window.AIIS_PROJECTS = [
       "ko": "과학기술정보통신부",
       "en": "Ministry of Science and ICT"
     },
-    "sourceTitle": "HYU-KITECH 공동교육기반 공동연구"
+    "sourceTitle": "HYU-KITECH 공동교육기반 공동연구",
+    "funderLogo": "funder-msit.svg"
   },
   {
     "id": "project-04",
@@ -58,7 +60,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "Ministry of Trade, Industry and Energy (MOTIE), Korea"
     },
-    "sourceTitle": "전자부품업종의 글로벌 가치사슬의 동적변화에 대응 가능한 공급망 운영 최적화 서비스 기술 개발: 재고 최적화를 위한 메타 강화학습 기술 개발"
+    "sourceTitle": "전자부품업종의 글로벌 가치사슬의 동적변화에 대응 가능한 공급망 운영 최적화 서비스 기술 개발: 재고 최적화를 위한 메타 강화학습 기술 개발",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-05",
@@ -73,7 +76,8 @@ window.AIIS_PROJECTS = [
       "ko": "한양대학교(ERICA)",
       "en": "Hanyang University ERICA"
     },
-    "sourceTitle": "제품 재설계 및 운영 관리를 위한 AI기반 프레임워크에 대한 연구"
+    "sourceTitle": "제품 재설계 및 운영 관리를 위한 AI기반 프레임워크에 대한 연구",
+    "funderLogo": "hanyang-symbol.svg"
   },
   {
     "id": "project-06",
@@ -88,7 +92,8 @@ window.AIIS_PROJECTS = [
       "ko": "한양대학교(ERICA)",
       "en": "Hanyang University ERICA"
     },
-    "sourceTitle": "스마트 제조를 위한 심층강화학습 기반 생산성 향상 방법론 개발"
+    "sourceTitle": "스마트 제조를 위한 심층강화학습 기반 생산성 향상 방법론 개발",
+    "funderLogo": "hanyang-symbol.svg"
   },
   {
     "id": "project-07",
@@ -103,7 +108,8 @@ window.AIIS_PROJECTS = [
       "ko": "생애첫연구과제, 한국연구재단(과학기술정보통신부)",
       "en": "First-time Research Program, National Research Foundation of Korea (MSIT)"
     },
-    "sourceTitle": "3D 프린팅 기반 제품설계/공정계획/운영관리를 위한 생산성 향상 방법론 개발"
+    "sourceTitle": "3D 프린팅 기반 제품설계/공정계획/운영관리를 위한 생산성 향상 방법론 개발",
+    "funderLogo": "funder-nrf.svg"
   },
   {
     "id": "project-08",
@@ -118,7 +124,8 @@ window.AIIS_PROJECTS = [
       "ko": "경기대학교",
       "en": "Kyonggi University"
     },
-    "sourceTitle": "공정상황별 운영 최적화를 지원하는 AI기반의 제조공정물류 최적화 기술 개발"
+    "sourceTitle": "공정상황별 운영 최적화를 지원하는 AI기반의 제조공정물류 최적화 기술 개발",
+    "funderLogo": "funder-kgu.png"
   },
   {
     "id": "project-09",
@@ -133,7 +140,8 @@ window.AIIS_PROJECTS = [
       "ko": "경기대학교",
       "en": "Kyonggi University"
     },
-    "sourceTitle": "K-ACE+: 스마트제조융합교육 특성화 사업"
+    "sourceTitle": "K-ACE+: 스마트제조융합교육 특성화 사업",
+    "funderLogo": "funder-kgu.png"
   },
   {
     "id": "project-10",
@@ -148,7 +156,8 @@ window.AIIS_PROJECTS = [
       "ko": "Intelligence & Manufacturing Research Center (IMRC) / Gyeonggi-do Regional Research Center (GRRC)",
       "en": "Intelligence & Manufacturing Research Center (IMRC) / Gyeonggi-do Regional Research Center (GRRC)"
     },
-    "sourceTitle": "지능형 산업 데이터 분석 연구"
+    "sourceTitle": "지능형 산업 데이터 분석 연구",
+    "funderLogo": "funder-grrc.png"
   },
   {
     "id": "project-11",
@@ -163,7 +172,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "Ministry of Trade, Industry and Energy (MOTIE), Korea"
     },
-    "sourceTitle": "산업혁신인재성장지원사업(HRD Program for Industrial Innovation)"
+    "sourceTitle": "산업혁신인재성장지원사업(HRD Program for Industrial Innovation)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-12",
@@ -178,7 +188,8 @@ window.AIIS_PROJECTS = [
       "ko": "CMMI-1727190, National Science Foundation (NSF), USA",
       "en": "CMMI-1727190, National Science Foundation (NSF), USA"
     },
-    "sourceTitle": "Improving Design for Additive Manufacturing through Physically-integrated Design Concepts Generated from Computationally Efficient Graph Coloring Techniques"
+    "sourceTitle": "Improving Design for Additive Manufacturing through Physically-integrated Design Concepts Generated from Computationally Efficient Graph Coloring Techniques",
+    "funderLogo": "funder-nsf.png"
   },
   {
     "id": "project-13",
@@ -193,7 +204,8 @@ window.AIIS_PROJECTS = [
       "ko": "CMMI-1435908, NSF, USA",
       "en": "CMMI-1435908, NSF, USA"
     },
-    "sourceTitle": "Remediating E-waste Problems by Considering Consumer Behavior in Design for Multiple Life Cycles and Design for Ease of Return"
+    "sourceTitle": "Remediating E-waste Problems by Considering Consumer Behavior in Design for Multiple Life Cycles and Design for Ease of Return",
+    "funderLogo": "funder-nsf.png"
   },
   {
     "id": "project-14",
@@ -208,7 +220,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "Ministry of Trade, Industry and Energy (MOTIE), Korea"
     },
-    "sourceTitle": "중소 제조기업 보급용 한국형 스마트 공장 플랫폼 구축 및 시범 적용(Development of Smart Factory Platform for Small and Medium Manufacturing Enterprises)"
+    "sourceTitle": "중소 제조기업 보급용 한국형 스마트 공장 플랫폼 구축 및 시범 적용(Development of Smart Factory Platform for Small and Medium Manufacturing Enterprises)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-15",
@@ -223,7 +236,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "MOTIE, Korea"
     },
-    "sourceTitle": "제조 기반 설계 기술 강화 사업(Enhancement of Design Technology based on Manufacturing)"
+    "sourceTitle": "제조 기반 설계 기술 강화 사업(Enhancement of Design Technology based on Manufacturing)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-16",
@@ -238,7 +252,8 @@ window.AIIS_PROJECTS = [
       "ko": "한국생산기술연구원",
       "en": "Korea Institute of Industrial Technology (KITECH), Korea"
     },
-    "sourceTitle": "의료부품생산을 위한 융합 신공정기술 개발(Development of Converged Manufacturing Technology for Medical Functional Part)"
+    "sourceTitle": "의료부품생산을 위한 융합 신공정기술 개발(Development of Converged Manufacturing Technology for Medical Functional Part)",
+    "funderLogo": "funder-kitech.svg"
   },
   {
     "id": "project-17",
@@ -253,7 +268,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "MOTIE, Korea"
     },
-    "sourceTitle": "지식집약형 디지털 모델기반 제조업지원 서비스 플랫폼 개발(Development of Manufacturing Supporting Service based on Knowledge Intensive Digital Model)"
+    "sourceTitle": "지식집약형 디지털 모델기반 제조업지원 서비스 플랫폼 개발(Development of Manufacturing Supporting Service based on Knowledge Intensive Digital Model)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-18",
@@ -268,7 +284,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "MOTIE, Korea"
     },
-    "sourceTitle": "자율적응 생산시스템 통합 운용기술 개발 사업(Development of Integrated Operation Technology for Autonomous Production Systems)"
+    "sourceTitle": "자율적응 생산시스템 통합 운용기술 개발 사업(Development of Integrated Operation Technology for Autonomous Production Systems)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-19",
@@ -283,7 +300,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "MOTIE, Korea"
     },
-    "sourceTitle": "실시간 정보통합 기반 다품종 생산 최적운용기술 개발(Development of Optimized Operation Technology for Flexible Manufacturing based on Real-Time Information Integration)"
+    "sourceTitle": "실시간 정보통합 기반 다품종 생산 최적운용기술 개발(Development of Optimized Operation Technology for Flexible Manufacturing based on Real-Time Information Integration)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-20",
@@ -298,7 +316,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "MOTIE, Korea"
     },
-    "sourceTitle": "사이버 제조설계 시뮬레이션 기술 확산 사업(Distribution of Simulation Technology for Cyber Manufacturing Design)"
+    "sourceTitle": "사이버 제조설계 시뮬레이션 기술 확산 사업(Distribution of Simulation Technology for Cyber Manufacturing Design)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-21",
@@ -313,7 +332,8 @@ window.AIIS_PROJECTS = [
       "ko": "지식경제부",
       "en": "Ministry of Knowledge Economy (MKE), Korea"
     },
-    "sourceTitle": "제조 서비스를 위한 연구 센터의 활성화 사업(A Study on Revitalization Plans of Research Center for Manufacturing Service)"
+    "sourceTitle": "제조 서비스를 위한 연구 센터의 활성화 사업(A Study on Revitalization Plans of Research Center for Manufacturing Service)",
+    "funderLogo": "funder-mke.svg"
   },
   {
     "id": "project-22",
@@ -328,7 +348,8 @@ window.AIIS_PROJECTS = [
       "ko": "한국생산기술연구원",
       "en": "KITECH, Korea"
     },
-    "sourceTitle": "난삭재 고품위/고능률 융합 가공 공정 기술 개발(Development of Convergent Machining Technology for High Quality & High Performance Machining of Difficult-to-cut Materials)"
+    "sourceTitle": "난삭재 고품위/고능률 융합 가공 공정 기술 개발(Development of Convergent Machining Technology for High Quality & High Performance Machining of Difficult-to-cut Materials)",
+    "funderLogo": "funder-kitech.svg"
   },
   {
     "id": "project-23",
@@ -343,7 +364,8 @@ window.AIIS_PROJECTS = [
       "ko": "산업통상자원부",
       "en": "MOTIE, Korea"
     },
-    "sourceTitle": "i매뉴팩쳐링(한국형제조혁신)-제조프로세스혁신 사업(Manufacturing Process Innovation in i-Manufacturing)"
+    "sourceTitle": "i매뉴팩쳐링(한국형제조혁신)-제조프로세스혁신 사업(Manufacturing Process Innovation in i-Manufacturing)",
+    "funderLogo": "funder-motie.svg"
   },
   {
     "id": "project-24",
@@ -358,7 +380,8 @@ window.AIIS_PROJECTS = [
       "ko": "지식경제부",
       "en": "MKE, Korea"
     },
-    "sourceTitle": "PnP플랫폼 기반 중소기업 맞춤형 IT솔루션 시장검증 사업(Development of Customized Production System Infrastructure based on Plug and Play (PNP) Platform for SMEs)"
+    "sourceTitle": "PnP플랫폼 기반 중소기업 맞춤형 IT솔루션 시장검증 사업(Development of Customized Production System Infrastructure based on Plug and Play (PNP) Platform for SMEs)",
+    "funderLogo": "funder-mke.svg"
   },
   {
     "id": "project-25",
@@ -373,7 +396,8 @@ window.AIIS_PROJECTS = [
       "ko": "지식경제부",
       "en": "MKE, Korea"
     },
-    "sourceTitle": "수주형 산업의 실시간 생산운영 및 설비-생산 통합관리 기술 개발(Development of Real-Time Manufacturing Process & Integrated Equipment Management Technology for Order-Based Industries)"
+    "sourceTitle": "수주형 산업의 실시간 생산운영 및 설비-생산 통합관리 기술 개발(Development of Real-Time Manufacturing Process & Integrated Equipment Management Technology for Order-Based Industries)",
+    "funderLogo": "funder-mke.svg"
   },
   {
     "id": "project-26",
@@ -388,7 +412,8 @@ window.AIIS_PROJECTS = [
       "ko": "지식경제부",
       "en": "MKE, Korea"
     },
-    "sourceTitle": "서비스 테스트를 위한 혁신형 서비스 실험실 구축(Establishment of a Service Test Lab. for Innovation of Service Quality)"
+    "sourceTitle": "서비스 테스트를 위한 혁신형 서비스 실험실 구축(Establishment of a Service Test Lab. for Innovation of Service Quality)",
+    "funderLogo": "funder-mke.svg"
   },
   {
     "id": "project-27",
@@ -403,7 +428,8 @@ window.AIIS_PROJECTS = [
       "ko": "한국전자통신연구원",
       "en": "Electronics and Telecommunication Research Institute (ETRI), Korea"
     },
-    "sourceTitle": "유비쿼터스 웹을 위한 디바이스 연동 기술연구(A Study on Mobile Web Application Device API)"
+    "sourceTitle": "유비쿼터스 웹을 위한 디바이스 연동 기술연구(A Study on Mobile Web Application Device API)",
+    "funderLogo": "funder-etri.svg"
   },
   {
     "id": "project-28",
@@ -418,7 +444,8 @@ window.AIIS_PROJECTS = [
       "ko": "한국생산기술연구원",
       "en": "KITECH, Korea"
     },
-    "sourceTitle": "협업 제조 프로세스를 위한 제품 개발 생애주기 기반 Enterprise BOM 관리 기법(Enterprise BOM Management based on Product Development Lifecycle: Toward Collaborative Manufacturing Processes)"
+    "sourceTitle": "협업 제조 프로세스를 위한 제품 개발 생애주기 기반 Enterprise BOM 관리 기법(Enterprise BOM Management based on Product Development Lifecycle: Toward Collaborative Manufacturing Processes)",
+    "funderLogo": "funder-kitech.svg"
   },
   {
     "id": "project-29",
@@ -433,7 +460,8 @@ window.AIIS_PROJECTS = [
       "ko": "한국전자통신연구원",
       "en": "ETRI, Korea"
     },
-    "sourceTitle": "유비쿼터스 환경에서의 디바이스 온톨로지 연구(Device Ontology for Coordination of a Ubiquitous Environment)"
+    "sourceTitle": "유비쿼터스 환경에서의 디바이스 온톨로지 연구(Device Ontology for Coordination of a Ubiquitous Environment)",
+    "funderLogo": "funder-etri.svg"
   },
   {
     "id": "project-30",
@@ -448,7 +476,8 @@ window.AIIS_PROJECTS = [
       "ko": "한국전자통신연구원",
       "en": "ETRI, Korea"
     },
-    "sourceTitle": "융합서비스를 위한 서비스 컴포지션 및 서비스간 인터랙션 제어 연구(Development of a Control Mechanism for a Non-blocking IPTV-based Service Delivery System)"
+    "sourceTitle": "융합서비스를 위한 서비스 컴포지션 및 서비스간 인터랙션 제어 연구(Development of a Control Mechanism for a Non-blocking IPTV-based Service Delivery System)",
+    "funderLogo": "funder-etri.svg"
   },
   {
     "id": "project-31",
@@ -463,6 +492,7 @@ window.AIIS_PROJECTS = [
       "ko": "한국생산기술연구원",
       "en": "KITECH, Korea"
     },
-    "sourceTitle": "협업기반 프로세스 통합 기술(Collaboration-based Process Integration for Manufacturing Activities)"
+    "sourceTitle": "협업기반 프로세스 통합 기술(Collaboration-based Process Integration for Manufacturing Activities)",
+    "funderLogo": "funder-kitech.svg"
   }
 ];

@@ -7,7 +7,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Reinforcement Learning-Based Neural Combinatorial Optimization for Part Consolidation under Manufacturing Constraints",
     "authors": "Ji, Y. and Oh, Y.*",
     "venue": "Journal of Computational Design and Engineering (in progress)",
-    "metrics": "",
     "links": [],
     "citation": "Ji, Y. and Oh, Y.* (2026+). Reinforcement Learning-Based Neural Combinatorial Optimization for Part Consolidation under Manufacturing Constraints. Journal of Computational Design and Engineering (in progress)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -21,7 +20,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Meta-Reinforcement Learning-Based Order Quantity Determination for the Multi-Echelon Inventory Management of an Assembly System",
     "authors": "Oh, Y., Lee, S., Kim, H., and Barde, S.*",
     "venue": "Journal of Intelligent Manufacturing, Published Online: 01 October 2026.",
-    "metrics": "[IF: 7.7 (2025); Q1 in COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE]",
     "links": [
       {
         "label": "DOI",
@@ -30,7 +28,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y., Lee, S., Kim, H., and Barde, S.* (2026). Meta-Reinforcement Learning-Based Order Quantity Determination for the Multi-Echelon Inventory Management of an Assembly System. Journal of Intelligent Manufacturing, Published Online: 01 October 2026.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 1
+    "sourceOrder": 1,
+    "impactFactor": {
+      "value": "7.7",
+      "year": 2025
+    }
   },
   {
     "id": "pub-4-1",
@@ -40,11 +42,10 @@ window.AIIS_PUBLICATIONS = [
     "title": "중앙 파라미터 서버와 병렬 행위자-학습자 구조를 활용한 CPU 기반 제조 공정 시뮬레이션의 분산 강화학습",
     "authors": "지예림, 오요셉",
     "venue": "포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
-    "metrics": "",
     "links": [
       {
         "label": "Video",
-        "url": "https://youtu.be/8_bPaQrPXKU?si=_dQaDw1_zJ_M2HLd"
+        "url": "https://www.youtube.com/watch?v=7GKplGPK6c0&list=PLJKtx0OL2-vs"
       }
     ],
     "citation": "지예림, 오요셉 (2026). 중앙 파라미터 서버와 병렬 행위자-학습자 구조를 활용한 CPU 기반 제조 공정 시뮬레이션의 분산 강화학습. 포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
@@ -59,11 +60,10 @@ window.AIIS_PUBLICATIONS = [
     "title": "NVIDIA Isaac Sim 기반 3D 프린팅 디지털 트윈: G-code 해석 및 공정 시뮬레이션",
     "authors": "노민아, 오요셉",
     "venue": "포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
-    "metrics": "",
     "links": [
       {
         "label": "Video",
-        "url": "https://youtu.be/WQMA0aIu9DI?si=tzj4D_j55AX8g23U"
+        "url": "https://www.youtube.com/watch?v=ZEdRd6CpntQ&list=PLJKtx0OL2-vs"
       }
     ],
     "citation": "노민아, 오요셉 (2026). NVIDIA Isaac Sim 기반 3D 프린팅 디지털 트윈: G-code 해석 및 공정 시뮬레이션. 포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
@@ -78,11 +78,10 @@ window.AIIS_PUBLICATIONS = [
     "title": "분포 이동 환경에서의 설비 이상탐지를 위한 Deep Q-Network 기반 동적 임계치 조정",
     "authors": "이서경, 김동민, 오요셉",
     "venue": "포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
-    "metrics": "",
     "links": [
       {
         "label": "Video",
-        "url": "https://youtu.be/vH-aJmr3rws?si=dMVrzvSZyrjyF3no"
+        "url": "https://www.youtube.com/watch?v=uZNOQTlbPY4&list=PLJKtx0OL2-vs"
       }
     ],
     "citation": "이서경, 김동민, 오요셉 (2026). 분포 이동 환경에서의 설비 이상탐지를 위한 Deep Q-Network 기반 동적 임계치 조정. 포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
@@ -97,11 +96,10 @@ window.AIIS_PUBLICATIONS = [
     "title": "오프라인 강화학습을 활용한 이미지 세그멘테이션 기반 결함 검출을 위한 동적 임계치 보정",
     "authors": "김동민, 오요셉",
     "venue": "포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
-    "metrics": "",
     "links": [
       {
         "label": "Video",
-        "url": "https://youtu.be/hVRribq7yaY?si=4J-dCJ1Zd4j-kGzh"
+        "url": "https://www.youtube.com/watch?v=r6nLQLYnTdE&list=PLJKtx0OL2-vs"
       }
     ],
     "citation": "김동민, 오요셉 (2026). 오프라인 강화학습을 활용한 이미지 세그멘테이션 기반 결함 검출을 위한 동적 임계치 보정. 포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
@@ -116,11 +114,10 @@ window.AIIS_PUBLICATIONS = [
     "title": "광경화 3D 프린팅 생산 라인의 불량 파트 재작업 의사결정을 위한 Simio 시뮬레이션 기반 심층 강화학습",
     "authors": "우원진, 심민성, 최원준, 오요셉",
     "venue": "포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
-    "metrics": "",
     "links": [
       {
         "label": "Video",
-        "url": "https://youtu.be/DCo_U4627xk?si=fBuEgDc-InoXJBmo"
+        "url": "https://www.youtube.com/watch?v=PhsAtC77240&list=PLJKtx0OL2-vs"
       }
     ],
     "citation": "우원진, 심민성, 최원준, 오요셉 (2026). 광경화 3D 프린팅 생산 라인의 불량 파트 재작업 의사결정을 위한 Simio 시뮬레이션 기반 심층 강화학습. 포스터 발표, 2026 한국CDE학회 동계학술대회, 모나용평.",
@@ -135,7 +132,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Part consolidation and decomposition in redesign for additive manufacturing (RfAM): A taxonomy and review",
     "authors": "Kwon, S., Oh, Y., Rosen, D. W., and Kim, S.*",
     "venue": "Additive Manufacturing, Volume 114, 105044; The first and second authors contributed equally to this work.",
-    "metrics": "[IF: 11.3 (2025); Ranked top 7% in Engineering & Manufacturing]",
     "links": [
       {
         "label": "DOI",
@@ -144,7 +140,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Kwon, S., Oh, Y., Rosen, D. W., and Kim, S.* (2025). Part consolidation and decomposition in redesign for additive manufacturing (RfAM): A taxonomy and review. Additive Manufacturing, Volume 114, 105044; The first and second authors contributed equally to this work.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 2
+    "sourceOrder": 2,
+    "impactFactor": {
+      "value": "11.3",
+      "year": 2025
+    }
   },
   {
     "id": "pub-4-6",
@@ -154,7 +154,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "CPU 기반 시뮬레이션 환경에서의 심층 강화학습 병렬화 전략과 최적 구조 선택",
     "authors": "지예림, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
-    "metrics": "",
     "links": [],
     "citation": "지예림, 오요셉 (2025). CPU 기반 시뮬레이션 환경에서의 심층 강화학습 병렬화 전략과 최적 구조 선택. 포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -168,7 +167,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "레이저 파우더 베드 융합의 결함 조기 탐지와 데이터 보강: U-Net과 GAN 기반 접근",
     "authors": "심민성, 우원진, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
-    "metrics": "",
     "links": [],
     "citation": "심민성, 우원진, 오요셉 (2025). 레이저 파우더 베드 융합의 결함 조기 탐지와 데이터 보강: U-Net과 GAN 기반 접근. 포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -182,7 +180,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "듀얼 백본–듀얼 디코더 모델과 합성 데이터 기반 금속 적층 제조 분말 도포 결함 탐지 연구",
     "authors": "김동민, 노민아, 지예림, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
-    "metrics": "",
     "links": [],
     "citation": "김동민, 노민아, 지예림, 오요셉 (2025). 듀얼 백본–듀얼 디코더 모델과 합성 데이터 기반 금속 적층 제조 분말 도포 결함 탐지 연구. 포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -196,7 +193,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "광경화 방식 3D 프린팅 공장의 운영 관리를 위한 Simio 기반 시뮬레이션 모델 구축",
     "authors": "최태훈, 최민호, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
-    "metrics": "",
     "links": [],
     "citation": "최태훈, 최민호, 오요셉 (2025). 광경화 방식 3D 프린팅 공장의 운영 관리를 위한 Simio 기반 시뮬레이션 모델 구축. 포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -210,7 +206,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Simio 기반 심층 강화학습 프레임워크: 온라인 연동을 위한 파일 기반 인터페이스 구현",
     "authors": "심민성, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
-    "metrics": "",
     "links": [],
     "citation": "심민성, 오요셉 (2025). Simio 기반 심층 강화학습 프레임워크: 온라인 연동을 위한 파일 기반 인터페이스 구현. 포스터 발표, 대한산업공학회 2025 추계학술대회, KAIST",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -224,7 +219,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "자재 주문량 결정을 위한 심층 강화학습 적용 및 의사결정나무 기반 최적 정책 해석",
     "authors": "박정진, 이승윤, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2024 추계학술대회, 과학기술컨벤션센터",
-    "metrics": "",
     "links": [],
     "citation": "박정진, 이승윤, 오요셉 (2024). 자재 주문량 결정을 위한 심층 강화학습 적용 및 의사결정나무 기반 최적 정책 해석. 포스터 발표, 대한산업공학회 2024 추계학술대회, 과학기술컨벤션센터",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -238,7 +232,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "생산 컨베이어 시스템의 디지털 트윈 교육을 위한 실습 환경 구축",
     "authors": "양선영, 이수현, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2024 추계학술대회, 과학기술컨벤션센터",
-    "metrics": "",
     "links": [],
     "citation": "양선영, 이수현, 오요셉 (2024). 생산 컨베이어 시스템의 디지털 트윈 교육을 위한 실습 환경 구축. 포스터 발표, 대한산업공학회 2024 추계학술대회, 과학기술컨벤션센터",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -252,7 +245,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "전자부품분야의 주문량 결정 문제를 위한 강화학습 기반 설명가능한 인공지능",
     "authors": "오요셉, 바르드 스테판",
     "venue": "구두 발표, 한국경영과학회/대한산업공학회 2024 춘계공동학술대회, 여수엑스포컨벤션센터",
-    "metrics": "",
     "links": [],
     "citation": "오요셉, 바르드 스테판 (2024). 전자부품분야의 주문량 결정 문제를 위한 강화학습 기반 설명가능한 인공지능. 구두 발표, 한국경영과학회/대한산업공학회 2024 춘계공동학술대회, 여수엑스포컨벤션센터",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -266,7 +258,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Optimal process planning for hybrid additive-subtractive manufacturing using volume decomposition",
     "authors": "Kwon, S. and Oh, Y.*",
     "venue": "Journal of Manufacturing Systems, Volume 71, 360-376.",
-    "metrics": "[IF: 12.2(2023); Ranked top 1% in Operations Research & Management Science]",
     "links": [
       {
         "label": "DOI",
@@ -275,7 +266,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Kwon, S. and Oh, Y.* (2023). Optimal process planning for hybrid additive-subtractive manufacturing using volume decomposition. Journal of Manufacturing Systems, Volume 71, 360-376.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 3
+    "sourceOrder": 3,
+    "impactFactor": {
+      "value": "12.2",
+      "year": 2023
+    }
   },
   {
     "id": "pub-4-14",
@@ -285,7 +280,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "공급사슬망관리의 동적 변동에 대응하기 위한 강화학습 기반 재고관리의 최신 연구동향 및 향후 기술 개발 방향",
     "authors": "이준범, 오요셉",
     "venue": "구두 발표, 한국생산제조학회 2023 추계학술대회, 제주라마다호텔",
-    "metrics": "",
     "links": [],
     "citation": "이준범, 오요셉 (2023). 공급사슬망관리의 동적 변동에 대응하기 위한 강화학습 기반 재고관리의 최신 연구동향 및 향후 기술 개발 방향. 구두 발표, 한국생산제조학회 2023 추계학술대회, 제주라마다호텔",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -299,7 +293,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "다수 아이템의 자재 주문량 결정을 위한 강화학습 알고리즘 적용 및 성능 비교",
     "authors": "이준범, 이승윤, 김유나, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2023 추계학술대회, UNIST",
-    "metrics": "",
     "links": [],
     "citation": "이준범, 이승윤, 김유나, 오요셉 (2023). 다수 아이템의 자재 주문량 결정을 위한 강화학습 알고리즘 적용 및 성능 비교. 포스터 발표, 대한산업공학회 2023 추계학술대회, UNIST",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -313,7 +306,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Scheduling of build and post processes for decomposed parts in additive manufacturing",
     "authors": "Oh, Y., and Cho, Y.*",
     "venue": "Additive Manufacturing, Volume 59, Part B, 103164.",
-    "metrics": "[IF: 11 (2022); Ranked top 9% in Engineering & Manufacturing]",
     "links": [
       {
         "label": "Publisher",
@@ -322,7 +314,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y., and Cho, Y.* (2022). Scheduling of build and post processes for decomposed parts in additive manufacturing. Additive Manufacturing, Volume 59, Part B, 103164.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 4
+    "sourceOrder": 4,
+    "impactFactor": {
+      "value": "11",
+      "year": 2022
+    }
   },
   {
     "id": "pub-2-1",
@@ -332,7 +328,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "다중 객체 추적 알고리즘을 이용한 가공품 흐름 정보 기반 생산 실적 데이터 자동 수집 (Automatic Collection of Production Performance Data Based on Multi-Object Tracking Algorithms)",
     "authors": "임현아, 오서정, 손형준, 오요셉*",
     "venue": "한국전자거래학회지, 27, 2, 205-218",
-    "metrics": "",
     "links": [],
     "citation": "임현아, 오서정, 손형준, 오요셉* (2022). 다중 객체 추적 알고리즘을 이용한 가공품 흐름 정보 기반 생산 실적 데이터 자동 수집 (Automatic Collection of Production Performance Data Based on Multi-Object Tracking Algorithms). 한국전자거래학회지, 27, 2, 205-218",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -346,7 +341,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "A Dynamic And Physical Shop-floor Model Based On Bricks And Smart Hubs For Education And Research",
     "authors": "Oh, Y.",
     "venue": "INFORMS Annual Meeting 2022, Indianapolis, Indiana, USA, Oct. 16-19, 2022",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y. (2022). A Dynamic And Physical Shop-floor Model Based On Bricks And Smart Hubs For Education And Research. INFORMS Annual Meeting 2022, Indianapolis, Indiana, USA, Oct. 16-19, 2022",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -360,7 +354,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Spatial-temporal Modeling Using Deep Learning for Real-time Monitoring of Additive Manufacturing",
     "authors": "Ko, H., Kim, J., Lu, Y., Shin, D., Yang, Z., and Oh, Y.",
     "venue": "The ASME 2022 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2022), St. Louis, Missouri, USA, Aug. 14-17, 2022. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Ko, H., Kim, J., Lu, Y., Shin, D., Yang, Z., and Oh, Y. (2022). Spatial-temporal Modeling Using Deep Learning for Real-time Monitoring of Additive Manufacturing. The ASME 2022 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2022), St. Louis, Missouri, USA, Aug. 14-17, 2022. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -374,7 +367,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "3D 프린팅 팜 (farm) 관리 시스템의 운용 체계 및 주요 기능 설계",
     "authors": "손형준, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2022 추계학술대회, 인천대학교",
-    "metrics": "",
     "links": [],
     "citation": "손형준, 오요셉 (2022). 3D 프린팅 팜 (farm) 관리 시스템의 운용 체계 및 주요 기능 설계. 포스터 발표, 대한산업공학회 2022 추계학술대회, 인천대학교",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -388,7 +380,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "다중 객체 추적 알고리즘 기반 제조 공정 대기열의 포화도 탐지 및 예측",
     "authors": "정진우, 오요셉",
     "venue": "포스터 발표, 대한산업공학회 2022 추계학술대회, 인천대학교",
-    "metrics": "",
     "links": [],
     "citation": "정진우, 오요셉 (2022). 다중 객체 추적 알고리즘 기반 제조 공정 대기열의 포화도 탐지 및 예측. 포스터 발표, 대한산업공학회 2022 추계학술대회, 인천대학교",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -402,7 +393,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "딥러닝 기반 실시간 객체 추적을 이용한 3D프린터 출력 시간 측정",
     "authors": "임현아, 문비, 오요셉",
     "venue": "구두 발표, 대한산업공학회 2022 추계학술대회, 인천대학교",
-    "metrics": "",
     "links": [],
     "citation": "임현아, 문비, 오요셉 (2022). 딥러닝 기반 실시간 객체 추적을 이용한 3D프린터 출력 시간 측정. 구두 발표, 대한산업공학회 2022 추계학술대회, 인천대학교",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -416,7 +406,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Scheduling of build and post processes for decomposed parts in additive manufacturing",
     "authors": "Oh, Y. and Cho, Y.",
     "venue": "KORMS and KIIE 2022 Spring Conference, Jeju, Korea, June 01–03, 2022. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y. and Cho, Y. (2022). Scheduling of build and post processes for decomposed parts in additive manufacturing. KORMS and KIIE 2022 Spring Conference, Jeju, Korea, June 01–03, 2022. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -430,7 +419,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Neural Network-based Build Time Estimation for Additive Manufacturing: A Performance Comparison",
     "authors": "Oh, Y., Sharp, M., Sprock, T., and Kwon, S.*",
     "venue": "Journal of Computational Design and Engineering, 8(5), 1243–1256.",
-    "metrics": "[IF: 6.167 (2021); Ranked top 8% in Engineering & Multidisciplinary]",
     "links": [
       {
         "label": "DOI",
@@ -443,7 +431,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y., Sharp, M., Sprock, T., and Kwon, S.* (2021). Neural Network-based Build Time Estimation for Additive Manufacturing: A Performance Comparison. Journal of Computational Design and Engineering, 8(5), 1243–1256.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 5
+    "sourceOrder": 5,
+    "impactFactor": {
+      "value": "6.167",
+      "year": 2021
+    }
   },
   {
     "id": "pub-1-6",
@@ -453,7 +445,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Part Decomposition and Evaluation Based on Standard Design Guidelines for Additive Manufacturability and Assemblability",
     "authors": "Oh, Y., Ko, H., Sprock, T., Bernstein, W. Z., and Kwon, S.*",
     "venue": "Additive Manufacturing, 37.",
-    "metrics": "[IF: 11.632 (2021); Ranked top 1% in Engineering & Manufacturing]",
     "links": [
       {
         "label": "Publisher",
@@ -474,7 +465,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y., Ko, H., Sprock, T., Bernstein, W. Z., and Kwon, S.* (2021). Part Decomposition and Evaluation Based on Standard Design Guidelines for Additive Manufacturability and Assemblability. Additive Manufacturing, 37.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 6
+    "sourceOrder": 6,
+    "impactFactor": {
+      "value": "11.632",
+      "year": 2021
+    }
   },
   {
     "id": "pub-1-7",
@@ -484,7 +479,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Nesting and Scheduling Problems for Additive Manufacturing: A Taxonomy and Review",
     "authors": "Oh, Y.*, Witherell, P., Lu, Y., and Sprock, T.",
     "venue": "Additive Manufacturing, 36.",
-    "metrics": "[IF: 10.998 (2020); Ranked top 1% in Engineering & Manufacturing]",
     "links": [
       {
         "label": "DOI",
@@ -493,7 +487,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y.*, Witherell, P., Lu, Y., and Sprock, T. (2020). Nesting and Scheduling Problems for Additive Manufacturing: A Taxonomy and Review. Additive Manufacturing, 36.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 7
+    "sourceOrder": 7,
+    "impactFactor": {
+      "value": "10.998",
+      "year": 2020
+    }
   },
   {
     "id": "pub-1-8",
@@ -503,7 +501,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "The Impact of Build Orientation Policies on the Completion Time in Two-Dimensional Irregular Packing for Additive Manufacturing",
     "authors": "Oh, Y., Zhou, C., and Behdad, S.*",
     "venue": "International Journal of Production Research, 58(21), 2020.",
-    "metrics": "[IF: 8.568 (2020); Ranked top 2% in Operations Research & Management Science]",
     "links": [
       {
         "label": "Publisher",
@@ -512,7 +509,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y., Zhou, C., and Behdad, S.* (2020). The Impact of Build Orientation Policies on the Completion Time in Two-Dimensional Irregular Packing for Additive Manufacturing. International Journal of Production Research, 58(21), 2020.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 8
+    "sourceOrder": 8,
+    "impactFactor": {
+      "value": "8.568",
+      "year": 2020
+    }
   },
   {
     "id": "pub-4-20",
@@ -522,7 +523,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Optimization of part decomposition for efficient 3D printing",
     "authors": "Oh, Y., H. Ko, and Kwon, S.",
     "venue": "2020 Korean Society of Mechanical Engineers (KSME 2020) Fall/Spring Online Conference, Dec. 20, 2020. (In Korean) [Best Paper Award]",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y., H. Ko, and Kwon, S. (2020). Optimization of part decomposition for efficient 3D printing. 2020 Korean Society of Mechanical Engineers (KSME 2020) Fall/Spring Online Conference, Dec. 20, 2020. (In Korean) [Best Paper Award]",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -536,7 +536,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "On the use of neural networks for build time prediction in 3D printing",
     "authors": "Oh, Y. and Kwon, S.",
     "venue": "Society for Computational Design and Engineering 2020 Winter Conference, Jeju, Korea, Nov. 25–28, 2020. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y. and Kwon, S. (2020). On the use of neural networks for build time prediction in 3D printing. Society for Computational Design and Engineering 2020 Winter Conference, Jeju, Korea, Nov. 25–28, 2020. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -550,7 +549,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Requirements for part decomposition considering manufacturability in 3D printing",
     "authors": "Oh, Y., H. Ko, and Kwon, S.",
     "venue": "2020 Korean Society of Mechanical Engineers (KSME 2020) Conference, Kangwon, Korea, Dec. 16–19, 2020. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y., H. Ko, and Kwon, S. (2020). Requirements for part decomposition considering manufacturability in 3D printing. 2020 Korean Society of Mechanical Engineers (KSME 2020) Conference, Kangwon, Korea, Dec. 16–19, 2020. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -564,7 +562,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "An Optimal Quantity of Scheduling Model for Mass Customization-Based Additive Manufacturing",
     "authors": "Oh, Y. and Behdad, S.",
     "venue": "The ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2019), Anaheim, CA, USA, Aug. 26-29, 2019. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y. and Behdad, S. (2019). An Optimal Quantity of Scheduling Model for Mass Customization-Based Additive Manufacturing. The ASME 2019 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2019), Anaheim, CA, USA, Aug. 26-29, 2019. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -578,7 +575,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Part Decomposition and 2D Batch Placement in Single-machine Additive Manufacturing Systems",
     "authors": "Oh, Y., Zhou, C., and Behdad, S.*",
     "venue": "Journal of Manufacturing Systems, 48, 131-139.",
-    "metrics": "[IF: 3.642 (2018); Q1 in Operations Research & Management Science]",
     "links": [
       {
         "label": "Publisher",
@@ -587,7 +583,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y., Zhou, C., and Behdad, S.* (2018). Part Decomposition and 2D Batch Placement in Single-machine Additive Manufacturing Systems. Journal of Manufacturing Systems, 48, 131-139.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 9
+    "sourceOrder": 9,
+    "impactFactor": {
+      "value": "3.642",
+      "year": 2018
+    }
   },
   {
     "id": "pub-1-10",
@@ -597,7 +597,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Part Decomposition and Assembly-based (Re) Design for Additive Manufacturing: A Review",
     "authors": "Oh, Y., Zhou, C., and Behdad, S.*",
     "venue": "Additive Manufacturing, 22, 230-242.",
-    "metrics": "[IF: 7.173 (2018); Ranked top 1.1% in Engineering & Manufacturing]",
     "links": [
       {
         "label": "Publisher",
@@ -606,7 +605,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y., Zhou, C., and Behdad, S.* (2018). Part Decomposition and Assembly-based (Re) Design for Additive Manufacturing: A Review. Additive Manufacturing, 22, 230-242.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 10
+    "sourceOrder": 10,
+    "impactFactor": {
+      "value": "7.173",
+      "year": 2018
+    }
   },
   {
     "id": "pub-3-4",
@@ -616,7 +619,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Production Planning for Mass Customization based on Additive Manufacturing: Build Orientation Determination, 2D Packing, and Scheduling",
     "authors": "Oh, Y., Behdad, S., and Zhou, C.",
     "venue": "IDETC/CIE 2018, Quebec, Canada, Aug. 26-29, 2018. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y., Behdad, S., and Zhou, C. (2018). Production Planning for Mass Customization based on Additive Manufacturing: Build Orientation Determination, 2D Packing, and Scheduling. IDETC/CIE 2018, Quebec, Canada, Aug. 26-29, 2018. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -630,7 +632,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "2D Batch Placement Optimization for Additive Manufacturing: The Case of Multiple Machines",
     "authors": "Oh, Y., Behdad, S., and Zhou, C.",
     "venue": "The Institute of Industrial and Systems Engineers (IISE) Annual Conference 2018, Orlando, FL, USA, May. 19-22, 2018. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y., Behdad, S., and Zhou, C. (2018). 2D Batch Placement Optimization for Additive Manufacturing: The Case of Multiple Machines. The Institute of Industrial and Systems Engineers (IISE) Annual Conference 2018, Orlando, FL, USA, May. 19-22, 2018. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -644,7 +645,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Simultaneous Reassembly and Procurement Planning in Assemble-to-Order Remanufacturing Systems",
     "authors": "Oh, Y. and Behdad, S.*",
     "venue": "International Journal of Production Economics, 184, 168–178.",
-    "metrics": "[IF: 4.407 (2017); Ranked top 3% in Operations Research & Management Science]",
     "links": [
       {
         "label": "Publisher",
@@ -653,7 +653,11 @@ window.AIIS_PUBLICATIONS = [
     ],
     "citation": "Oh, Y. and Behdad, S.* (2017). Simultaneous Reassembly and Procurement Planning in Assemble-to-Order Remanufacturing Systems. International Journal of Production Economics, 184, 168–178.",
     "source": "https://sites.google.com/view/ha-an/publication",
-    "sourceOrder": 11
+    "sourceOrder": 11,
+    "impactFactor": {
+      "value": "4.407",
+      "year": 2017
+    }
   },
   {
     "id": "pub-3-6",
@@ -663,7 +667,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Part Separation Methods for Assembly-based Design in Additive Manufacturing",
     "authors": "Oh, Y., Behdad, S., and Zhou, C.",
     "venue": "IDETC/CIE 2017, Cleveland, OH, USA, Aug. 6-9, 2017. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y., Behdad, S., and Zhou, C. (2017). Part Separation Methods for Assembly-based Design in Additive Manufacturing. IDETC/CIE 2017, Cleveland, OH, USA, Aug. 6-9, 2017. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -677,7 +680,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Assembly Design Framework for Additive Manufacturing Based on Axiomatic Design Concept",
     "authors": "Oh, Y. and Behdad, S.",
     "venue": "IISE Annual Conference 2017, Pittsburgh, PA, USA, May. 20-23, 2017. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y. and Behdad, S. (2017). Assembly Design Framework for Additive Manufacturing Based on Axiomatic Design Concept. IISE Annual Conference 2017, Pittsburgh, PA, USA, May. 20-23, 2017. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -691,7 +693,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Assembly Based Part Design to Improve the Additive Manufacturing Productivity: Process Time, Cost and Surface Roughness",
     "authors": "Oh, Y. and Behdad, S.",
     "venue": "IDETC/CIE 2016, Charlotte, NC, USA, Aug. 21-24, 2016. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, Y. and Behdad, S. (2016). Assembly Based Part Design to Improve the Additive Manufacturing Productivity: Process Time, Cost and Surface Roughness. IDETC/CIE 2016, Charlotte, NC, USA, Aug. 21-24, 2016. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -705,7 +706,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Construction Strategy of the Smart Factory for Small and Medium-sized Manufacturing Enterprises",
     "authors": "Oh, J., Lee, J. Y., Yoon, J. S., and Kim, B. H.",
     "venue": "2015 International Conference on Flexible Automation and Intelligent Manufacturing (FAIM 2015), Wolverhampton, England, Jun. 23–26, 2015. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Lee, J. Y., Yoon, J. S., and Kim, B. H. (2015). Construction Strategy of the Smart Factory for Small and Medium-sized Manufacturing Enterprises. 2015 International Conference on Flexible Automation and Intelligent Manufacturing (FAIM 2015), Wolverhampton, England, Jun. 23–26, 2015. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -719,7 +719,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Design of a Software Platform to Support Manufacturing Enterprises using 3D CAD Data",
     "authors": "Kwon, H. J., Yoon, J. S., Oh, J., Lee, J. Y., and Kim, B. H.",
     "venue": "Transactions of the Society of CAD/CAM Engineers, 19(4), 434–442. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Kwon, H. J., Yoon, J. S., Oh, J., Lee, J. Y., and Kim, B. H. (2014). Design of a Software Platform to Support Manufacturing Enterprises using 3D CAD Data. Transactions of the Society of CAD/CAM Engineers, 19(4), 434–442. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -733,7 +732,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Online Collaboration System for Product Development in Value Chains of Small and Medium Manufacturing Enterprises",
     "authors": "Jung, S. Y., Choi, H. Z., Oh, J., and Kim, B. H",
     "venue": "2014 International Design Conference (Design 2014), Dubrovnik, Croatia, May 19–22, 2014. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Jung, S. Y., Choi, H. Z., Oh, J., and Kim, B. H (2014). Online Collaboration System for Product Development in Value Chains of Small and Medium Manufacturing Enterprises. 2014 International Design Conference (Design 2014), Dubrovnik, Croatia, May 19–22, 2014. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -747,7 +745,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Development of Shop Operation System for Dynamic Exception Handling in Multi-Cell Flexible Manufacturing Environment",
     "authors": "Yoon, J. S, Oh, J., and Nam, S. H.",
     "venue": "2014 Korean Society of Mechanical Engineering (KSME 2014) Spring Conference, Jeju, Korea, Apr. 24–25, 2014. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Yoon, J. S, Oh, J., and Nam, S. H. (2014). Development of Shop Operation System for Dynamic Exception Handling in Multi-Cell Flexible Manufacturing Environment. 2014 Korean Society of Mechanical Engineering (KSME 2014) Spring Conference, Jeju, Korea, Apr. 24–25, 2014. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -761,7 +758,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Infrastructure for Constructing an Individualized Manufacturing Information System for Small and Medium Manufacturing Enterprises",
     "authors": "Oh, J., Kim, B. H., and Baek, J. Y.",
     "venue": "FAIM 2013, Porto, Portugal, Jun. 26–28, 2013. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., and Baek, J. Y. (2013). Infrastructure for Constructing an Individualized Manufacturing Information System for Small and Medium Manufacturing Enterprises. FAIM 2013, Porto, Portugal, Jun. 26–28, 2013. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -775,7 +771,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Classification of Collaboration Tasks for Manufacturing Enterprises",
     "authors": "Oh, J., Kim, B. H., Baek, J. Y., and Jung, S. Y.",
     "venue": "KSPE 2013 Spring Conference, Jeju, Korea, May 29–31, 2013. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., Baek, J. Y., and Jung, S. Y. (2013). Classification of Collaboration Tasks for Manufacturing Enterprises. KSPE 2013 Spring Conference, Jeju, Korea, May 29–31, 2013. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -789,7 +784,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Servitization of Manufacturing Companies",
     "authors": "Baek, J. Y., Yoon, J. S., Oh, J., and Kim, B. H.",
     "venue": "Society of CAD/CAM Engineers 2013 Spring Conference, Pyeongchang, Korea, Jan. 30–Feb. 01, 2013. (Peer-Reviewed and in Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Baek, J. Y., Yoon, J. S., Oh, J., and Kim, B. H. (2013). Servitization of Manufacturing Companies. Society of CAD/CAM Engineers 2013 Spring Conference, Pyeongchang, Korea, Jan. 30–Feb. 01, 2013. (Peer-Reviewed and in Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -803,7 +797,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Evolution of Manufacturing Collaboration Technology based on IT and SMART Manufacturing Collaboration System",
     "authors": "Jung, S. Y., Oh, J., Kim, B. H., Choi, Y. J., and Choi, H. Z.",
     "venue": "Society of CAD/CAM Engineers 2013 Spring Conference, Pyeongchang, Korea, Jan. 30–Feb. 01, 2013. (Peer-Reviewed and in Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Jung, S. Y., Oh, J., Kim, B. H., Choi, Y. J., and Choi, H. Z. (2013). Evolution of Manufacturing Collaboration Technology based on IT and SMART Manufacturing Collaboration System. Society of CAD/CAM Engineers 2013 Spring Conference, Pyeongchang, Korea, Jan. 30–Feb. 01, 2013. (Peer-Reviewed and in Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -817,7 +810,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "An Integrated Multi-BOM System for Product Data Management",
     "authors": "Jung, S. Y., Kim, B. H., Oh, J., Baek, J. Y., Choi, H. J., and Lee, S. J.",
     "venue": "Transactions of the Society of CAD/CAM Engineers, 17(3), 216–223. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Jung, S. Y., Kim, B. H., Oh, J., Baek, J. Y., Choi, H. J., and Lee, S. J. (2012). An Integrated Multi-BOM System for Product Data Management. Transactions of the Society of CAD/CAM Engineers, 17(3), 216–223. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -831,7 +823,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "A Method of Progress Management of Projects based on Schedule for Small and Medium Enterprises",
     "authors": "Oh, J., Kim, B. H., Baek, J. Y., Jung, S. Y., and Choi, Y. J.",
     "venue": "IE Interfaces, 25(2), 276–282. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., Baek, J. Y., Jung, S. Y., and Choi, Y. J. (2012). A Method of Progress Management of Projects based on Schedule for Small and Medium Enterprises. IE Interfaces, 25(2), 276–282. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -845,7 +836,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Open and Smart Working System for Small and Medium Manufacturing Enterprises under Collaboration Environment",
     "authors": "Kim, B. H., Jung, S. Y., Oh, J., and Choi, H. Z.",
     "venue": "FAIM 2012, Helsinki, Finland, Jun. 10–13, 2012. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Kim, B. H., Jung, S. Y., Oh, J., and Choi, H. Z. (2012). Open and Smart Working System for Small and Medium Manufacturing Enterprises under Collaboration Environment. FAIM 2012, Helsinki, Finland, Jun. 10–13, 2012. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -859,7 +849,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Non-disclosure Methods of Activities considering Schedule Dependency in a Collaborative Project",
     "authors": "Oh, J., Kim, B. H., Baek, J. Y., and Choi, H. Z.",
     "venue": "FAIM 2012, Helsinki, Finland, Jun. 10–13, 2012. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., Baek, J. Y., and Choi, H. Z. (2012). Non-disclosure Methods of Activities considering Schedule Dependency in a Collaborative Project. FAIM 2012, Helsinki, Finland, Jun. 10–13, 2012. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -873,7 +862,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Schedule Management of an Enterprise Receiving Orders Considering Dependency between Unit Tasks of a Collaborative Project",
     "authors": "Oh, J., Kim, B. H., and Baek, J. Y.",
     "venue": "2012 International Conference on Mechanical, Industrial, and Manufacturing Engineering (ICMIME 2012), Zuich, Switzerland, Jan. 15–17, 2012",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., and Baek, J. Y. (2012). Schedule Management of an Enterprise Receiving Orders Considering Dependency between Unit Tasks of a Collaborative Project. 2012 International Conference on Mechanical, Industrial, and Manufacturing Engineering (ICMIME 2012), Zuich, Switzerland, Jan. 15–17, 2012",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -887,7 +875,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Application of Multi-BOM Framework on Product Life Cycle",
     "authors": "Jung, S. Y., Kim, B. H., Oh, J., Lee, S. J., Choi, H. Z., and Ryu, K. Y.",
     "venue": "Society of CAD/CAM Engineers 2012 Fall Conference, Yeosu, Korea, Aug. 22–24, 2012. (Peer-Reviewed and in Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Jung, S. Y., Kim, B. H., Oh, J., Lee, S. J., Choi, H. Z., and Ryu, K. Y. (2012). Application of Multi-BOM Framework on Product Life Cycle. Society of CAD/CAM Engineers 2012 Fall Conference, Yeosu, Korea, Aug. 22–24, 2012. (Peer-Reviewed and in Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -901,7 +888,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Development of Customized Production System Infrastructure for SMEs: PnP Platform & Manufacturing Appstore",
     "authors": "Kim, B. H., Oh, J., and Baek, J. Y.",
     "venue": "Society of CAD/CAM Engineers 2012 Fall Conference, Yeosu, Korea, Aug. 22–24, 2012. (Peer-Reviewed and in Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Kim, B. H., Oh, J., and Baek, J. Y. (2012). Development of Customized Production System Infrastructure for SMEs: PnP Platform & Manufacturing Appstore. Society of CAD/CAM Engineers 2012 Fall Conference, Yeosu, Korea, Aug. 22–24, 2012. (Peer-Reviewed and in Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -915,7 +901,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Open and Smart Collaboration Hub Technology",
     "authors": "Kim, B. H., Jung, S. Y., Oh, J., Choi, H. Z., and Lee, S. W.",
     "venue": "KSME 2012 Spring Conference, Daejeon, Korea, Jun. 26–27, 2012. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Kim, B. H., Jung, S. Y., Oh, J., Choi, H. Z., and Lee, S. W. (2012). Open and Smart Collaboration Hub Technology. KSME 2012 Spring Conference, Daejeon, Korea, Jun. 26–27, 2012. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -929,7 +914,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Milestone Monitoring for Project Schedule Management",
     "authors": "Oh, J., Kim, B. H., Jung, S. Y., and Jeong, H. J.",
     "venue": "Korean Society for Precision Engineering (KSPE) 2012 Spring Conference, Jeju, Korea, May 30–Jun. 1, 2012. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., Jung, S. Y., and Jeong, H. J. (2012). Milestone Monitoring for Project Schedule Management. Korean Society for Precision Engineering (KSPE) 2012 Spring Conference, Jeju, Korea, May 30–Jun. 1, 2012. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -943,7 +927,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Visual Mashup for Working Effectiveness Improvement of Enterprises",
     "authors": "Jung, S. Y., Kim, B. H., Oh, J., Kim, S. H., and Choi, H. Z.",
     "venue": "Korean Society of Manufacturing Technology Engineers (KSMTE) 2012 Spring Conference, Jeju, Korea, Apr. 25–27, 2012. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Jung, S. Y., Kim, B. H., Oh, J., Kim, S. H., and Choi, H. Z. (2012). Visual Mashup for Working Effectiveness Improvement of Enterprises. Korean Society of Manufacturing Technology Engineers (KSMTE) 2012 Spring Conference, Jeju, Korea, Apr. 25–27, 2012. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -957,7 +940,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Product Data Management based on Multi-BOM System",
     "authors": "Kim, B. H., Jung, S. Y., Lee, S. J., Oh, J., Baek, J. Y., and Choi, H. Z.",
     "venue": "Society of CAD/CAM Engineers 2012 Spring Conference, Pyeongchang, Korea, Feb. 1–3, 2012. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Kim, B. H., Jung, S. Y., Lee, S. J., Oh, J., Baek, J. Y., and Choi, H. Z. (2012). Product Data Management based on Multi-BOM System. Society of CAD/CAM Engineers 2012 Spring Conference, Pyeongchang, Korea, Feb. 1–3, 2012. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -971,7 +953,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Innovative Manufacturing Technology using Social Networks",
     "authors": "Baek, J. Y., Kim, B. H., Jung, S. Y., Oh, J., Kwon, H. J., and Kim, S. H.",
     "venue": "Society of CAD/CAM Engineers 2012 Spring Conference, Pyeongchang, Korea, Feb. 1–3, 2012. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Baek, J. Y., Kim, B. H., Jung, S. Y., Oh, J., Kwon, H. J., and Kim, S. H. (2012). Innovative Manufacturing Technology using Social Networks. Society of CAD/CAM Engineers 2012 Spring Conference, Pyeongchang, Korea, Feb. 1–3, 2012. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -985,7 +966,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Analysis of Management Technology of Project-Program for Small and Medium Enterprises",
     "authors": "Oh, J., Kim, B. H., Jung, S. Y., Nam, S. H., and Baek, J. Y.",
     "venue": "Society of CAD/CAM Engineers 2012 Spring Conference, Pyeongchang, Korea, Feb. 1–3, 2012. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., Jung, S. Y., Nam, S. H., and Baek, J. Y. (2012). Analysis of Management Technology of Project-Program for Small and Medium Enterprises. Society of CAD/CAM Engineers 2012 Spring Conference, Pyeongchang, Korea, Feb. 1–3, 2012. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -999,7 +979,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Multi-BOM Management System for Supporting Product Development",
     "authors": "Kim, B. H., Jung, S. Y., Baek, J. Y., Oh, J., and Choi, H. Z.",
     "venue": "FAIM 2011, Taichung, Taiwan, Jun. 26–29, 2011. (Peer-Reviewed)",
-    "metrics": "",
     "links": [],
     "citation": "Kim, B. H., Jung, S. Y., Baek, J. Y., Oh, J., and Choi, H. Z. (2011). Multi-BOM Management System for Supporting Product Development. FAIM 2011, Taichung, Taiwan, Jun. 26–29, 2011. (Peer-Reviewed)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1013,7 +992,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Design Framework of a Collaborative Project of Enterprise Receiving Orders: cWBS, cRAM",
     "authors": "Oh, J., Kim, B. H., and Baek, J. Y.",
     "venue": "KSMTE 2011 Fall Conference, Daejeon, Korea, Oct. 14–15, 2011. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., and Baek, J. Y. (2011). Design Framework of a Collaborative Project of Enterprise Receiving Orders: cWBS, cRAM. KSMTE 2011 Fall Conference, Daejeon, Korea, Oct. 14–15, 2011. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1027,7 +1005,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Schedule Management of Enterprises Receiving Orders with Emphasis on Dependency between Unit Tasks of Collaborative Project",
     "authors": "Oh, J., Kim, B. H., Baek, J. Y., Jung, S. Y., and Hong, S. H.",
     "venue": "KSPE 2011 Spring Conference, Jeju, Korea, Jun. 1–2, 2011. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Kim, B. H., Baek, J. Y., Jung, S. Y., and Hong, S. H. (2011). Schedule Management of Enterprises Receiving Orders with Emphasis on Dependency between Unit Tasks of Collaborative Project. KSPE 2011 Spring Conference, Jeju, Korea, Jun. 1–2, 2011. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1041,7 +1018,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Design and Implementation of Mobile Web Application Using Standard Device APIs",
     "authors": "Lee, K. C., Oh, J., and Shin, D. M.",
     "venue": "Transactions of Best Papers for Telecommunication Standardization, 27–43. (In Korean) [Best Paper Award]",
-    "metrics": "",
     "links": [],
     "citation": "Lee, K. C., Oh, J., and Shin, D. M. (2010). Design and Implementation of Mobile Web Application Using Standard Device APIs. Transactions of Best Papers for Telecommunication Standardization, 27–43. (In Korean) [Best Paper Award]",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1055,7 +1031,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "A Mechanism for Conflict Detection and Resolution for Service Interaction: Toward IP-based Network Services",
     "authors": "Oh, J. and Shin, D. M.",
     "venue": "IE Interfaces, 23(1), 57–67. (In Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J. and Shin, D. M. (2010). A Mechanism for Conflict Detection and Resolution for Service Interaction: Toward IP-based Network Services. IE Interfaces, 23(1), 57–67. (In Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1069,7 +1044,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "A Deadlock- and Livelock-free Resource Allocation Protocol for Multi-step Applications in Distributed Computing Systems",
     "authors": "Oh, J. and Shin, D. M.",
     "venue": "Korean Institute of Industrial Engineers (KIIE) 2010 Fall Conference, Seoul, Korea, Nov. 6, 2010. (Peer-Reviewed and in Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J. and Shin, D. M. (2010). A Deadlock- and Livelock-free Resource Allocation Protocol for Multi-step Applications in Distributed Computing Systems. Korean Institute of Industrial Engineers (KIIE) 2010 Fall Conference, Seoul, Korea, Nov. 6, 2010. (Peer-Reviewed and in Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1083,7 +1057,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "Message-based Modeling of Mobile Devices and Web Applications for Interoperability",
     "authors": "Oh, J. and Shin, D. M.",
     "venue": "Korean Operations Research and Management Science Society (KORMS) and KIIE 2010 Spring Conference, Jeju, Korea, Jun. 3–4, 2010. (Peer-Reviewed and in Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J. and Shin, D. M. (2010). Message-based Modeling of Mobile Devices and Web Applications for Interoperability. Korean Operations Research and Management Science Society (KORMS) and KIIE 2010 Spring Conference, Jeju, Korea, Jun. 3–4, 2010. (Peer-Reviewed and in Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1097,7 +1070,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "A Mechanism for Conflict Detection and Resolution for Service Interaction: Toward IP-based Network Services",
     "authors": "Oh, J. and Shin, D. M.",
     "venue": "KIIE 2009 Fall Conference, Suwon, Korea, Oct. 9, 2009. (Peer-Reviewed and in Korean) [Best Paper Award]",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J. and Shin, D. M. (2009). A Mechanism for Conflict Detection and Resolution for Service Interaction: Toward IP-based Network Services. KIIE 2009 Fall Conference, Suwon, Korea, Oct. 9, 2009. (Peer-Reviewed and in Korean) [Best Paper Award]",
     "source": "https://sites.google.com/view/ha-an/publication",
@@ -1111,7 +1083,6 @@ window.AIIS_PUBLICATIONS = [
     "title": "A Study on Realization of Plug and Play Platform for Generating Manufacturing Solution",
     "authors": "Oh, J., Seo, H. Y., and Shin, D. M.",
     "venue": "KORMS and KIIE 2009 Spring Conference, Busan, Korea, May 22–23, 2009. (Peer-Reviewed and in Korean)",
-    "metrics": "",
     "links": [],
     "citation": "Oh, J., Seo, H. Y., and Shin, D. M. (2009). A Study on Realization of Plug and Play Platform for Generating Manufacturing Solution. KORMS and KIIE 2009 Spring Conference, Busan, Korea, May 22–23, 2009. (Peer-Reviewed and in Korean)",
     "source": "https://sites.google.com/view/ha-an/publication",
