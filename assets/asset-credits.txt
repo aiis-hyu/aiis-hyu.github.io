@@ -43,7 +43,7 @@ Source: https://commons.wikimedia.org/wiki/File:Ministry_of_Trade,_Industry_and_
 Asset: https://upload.wikimedia.org/wikipedia/commons/6/61/Ministry_of_Trade%2C_Industry_and_Energy_of_the_Republic_of_Korea_Logo_%28English%29_%28horizontal%29.svg
 
 Video previews: YouTube publisher thumbnails and Google Drive source videos.
-SLA foundry preview: frame at 00:45 from https://drive.google.com/file/d/1mEwRz69QjBdHfRUScz9o4ycWGFAceSDN/view
+SLA foundry preview: video-sla-foundry-lincsolution.png, supplied by the lab on 2026-10-22. Credit: (주)링크솔루션.
 
 Cormorant Garamond Italic (Latin, regular 400)
 Copyright 2015 the Cormorant Project Authors. SIL Open Font License 1.1.

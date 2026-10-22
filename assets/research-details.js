@@ -73,23 +73,23 @@ window.AIIS_RESEARCH = [
     "id": "printing-farms",
     "label": "OPERATIONS MANAGEMENT",
     "short": {
-      "ko": "3D 프린팅 팜",
-      "en": "3D printing farms"
+      "ko": "3D프린팅 공장",
+      "en": "3D printing factories"
     },
     "title": {
-      "ko": "3D 프린팅 팜 운영 관리",
-      "en": "Operations Management for 3D Printing Farms"
+      "ko": "3D프린팅 공장 운영 관리",
+      "en": "Operations Management for 3D Printing Factories"
     },
     "points": {
       "ko": [
-        "3D 프린팅 팜으로 불리는 대규모 적층제조 설비의 효율적인 계획, 스케줄링, 제어를 연구합니다.",
-        "설비 활용, 작업 흐름 자동화, 재고 관리, 주문 이행 전략을 최적화해 처리량을 높이고 운영 비용을 줄입니다.",
-        "대량 맞춤화와 주문형 제조를 위한 생산 규모의 확장을 지원합니다."
+        "3D프린팅 공장의 생산 계획, 스케줄링, 운영 제어를 연구합니다.",
+        "설비 활용, 작업 흐름 자동화, 재고 관리, 주문 이행 전략을 최적화해 생산성을 높이고 운영 비용을 줄입니다.",
+        "대량 맞춤화와 주문형 제조를 위한 유연하고 효율적인 공장 운영 방법을 개발합니다."
       ],
       "en": [
-        "This field addresses the efficient planning, scheduling, and control of large-scale additive manufacturing facilities, commonly referred to as 3D printing farms.",
-        "Research focuses on optimizing machine utilization, workflow automation, inventory management, and order fulfillment strategies to improve throughput and reduce operational costs.",
-        "It plays a crucial role in scaling up production for mass customization and on-demand manufacturing."
+        "We study production planning, scheduling, and operational control for 3D printing factories.",
+        "Our research optimizes machine utilization, workflow automation, inventory management, and order fulfillment to improve productivity and reduce operating costs.",
+        "We develop flexible and efficient factory operations to support mass customization and on-demand manufacturing."
       ]
     },
     "partners": [
@@ -112,28 +112,6 @@ window.AIIS_RESEARCH = [
         "poster": "video-align.jpg"
       },
       {
-        "id": "print-go",
-        "type": "youtube",
-        "video": "fIfacMDQYcI",
-        "title": {
-          "ko": "로봇을 이용한 3D 프린터 자동화",
-          "en": "Automating 3D printers with robots"
-        },
-        "source": "Print&Go · Universal Robots",
-        "poster": "video-print-go.jpg"
-      },
-      {
-        "id": "farm-demo",
-        "type": "drive",
-        "video": "1UuExWzvCBLx-El_HqPQafIKwMS4wYLuQ",
-        "title": {
-          "ko": "3D 프린팅 팜 시연",
-          "en": "3D printing farm demonstration"
-        },
-        "source": "Farm_v1.0_시연영상.mp4",
-        "poster": "video-farm-demo.jpg"
-      },
-      {
         "id": "sla-foundry",
         "type": "drive",
         "video": "1mEwRz69QjBdHfRUScz9o4ycWGFAceSDN",
@@ -141,8 +119,8 @@ window.AIIS_RESEARCH = [
           "ko": "SLA 기반 3D 프린팅 파운드리",
           "en": "3D printing foundry for SLA"
         },
-        "source": "4_Auto_0809_fin.mp4",
-        "poster": "video-sla-foundry.jpg"
+        "source": "(주)링크솔루션",
+        "poster": "video-sla-foundry-lincsolution.png"
       }
     ]
   },
@@ -220,6 +198,17 @@ window.AIIS_RESEARCH = [
           "ko": "제조 시스템의 디지털 모델과 시뮬레이션",
           "en": "Digital modeling and simulation of manufacturing systems"
         }
+      },
+      {
+        "id": "farm-demo",
+        "type": "drive",
+        "video": "1UuExWzvCBLx-El_HqPQafIKwMS4wYLuQ",
+        "title": {
+          "ko": "3D프린팅 생산 현장 디지털 모델",
+          "en": "Digital Model of a 3D Printing Production Facility"
+        },
+        "source": "Simio 시뮬레이션",
+        "poster": "video-farm-demo.jpg"
       }
     ]
   },
