@@ -115,6 +115,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 #main .title-affiliation strong{color:#355b88}
 #main .title-affiliation .affiliation-department{color:#516e91}
 #main .title-vision h2{color:#243e60}
+#main .title-vision h2 .title-connector{font-weight:400}
 #main .title-vision h2 em{color:#3475c2}
 #main .title-vision>p{color:#5b7290}
 .title-vision h2 em{position:relative;display:inline-block}
