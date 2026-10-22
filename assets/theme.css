@@ -267,9 +267,11 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .research-video .video-play{color:#2867b2;background:#fff;box-shadow:0 5px 22px #142b4c40;}
 
 .professor-affiliation{font-size:15px;line-height:1.85;word-break:keep-all;}
-.impact-factor{display:flex;align-items:baseline;gap:8px;font-size:14px;margin:12px 0;color:#53687f;}
-.impact-factor strong{color:#2867b2;font-size:16px;}
-.impact-factor small{font-size:13px;}
+#main .journal-metrics{margin:12px 0;font-size:14px;line-height:1.8;color:#53687f;}
+#main .journal-metrics .impact-factor{display:inline-flex;align-items:baseline;gap:5px;white-space:nowrap;}
+#main .journal-metrics .impact-factor strong{color:#2867b2;font-size:14px;font-weight:700;}
+#main .journal-metrics .metrics-divider{padding-inline:5px;color:#91a4bb;}
+#main .journal-metrics .metrics-year{font-size:13px;color:#64748b;white-space:nowrap;}
 #main .news-meta{display:flex;flex-direction:column;align-items:flex-start;gap:7px;}
 #main .news-article .news-meta .tag{margin-top:0;}
 .news-paper{margin-top:18px;padding-left:16px;border-left:2px solid #a9c3e3;}
@@ -308,8 +310,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url('fonts/cormorant-garamond-italic-latin.woff2') format('woff2');}
 #main .title-slogan{position:absolute;z-index:1;top:28px;left:32px;right:32px;margin:0;font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-size:clamp(10px,1.48vw,19px);font-style:italic;font-weight:400;font-synthesis:none;line-height:1.6;letter-spacing:0;color:#385e88;text-align:center;white-space:nowrap;}
 #main .title-slogan .slogan-keyword{font:inherit;color:inherit;text-decoration:none;white-space:nowrap;}
-#main .journal-ranking{margin:0 0 12px;font-size:14px;line-height:1.7;color:#53687f;}
+#main .journal-ranking{display:inline;font:inherit;color:inherit;}
 #main .journal-ranking strong{font-weight:700;color:#2867b2;}
-#main .journal-ranking small{font-size:13px;color:#64748b;white-space:nowrap;}
 @media(max-width:800px){#main .title-slogan{left:24px;right:24px;top:24px;}}
 @media(max-width:600px){#main .title-slogan{left:20px;right:20px;top:24px;font-size:16px;line-height:1.5;white-space:normal;text-wrap:balance;}}
