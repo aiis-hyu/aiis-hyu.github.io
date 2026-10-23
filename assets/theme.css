@@ -99,6 +99,8 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .contact-grid section+section{background:#f3f7fc}
 .site-footer,.site-footer p,.site-footer .footer-copyright{color:#5d728b;background:#f7f9fc}
 .site-footer .footer-affiliation{color:#4a6483;font-weight:600}
+.footer-affiliation a{text-decoration:underline;text-decoration-color:#b7c9df;text-underline-offset:3px}
+.footer-affiliation a:hover,.footer-affiliation a:focus-visible{color:var(--accent);text-decoration-color:currentColor}
 
 /* The TITLE echoes the logo's facets and connected nodes, with cool light. */
 .intro-carousel{border:1px solid #d3e0f0;border-radius:14px;box-shadow:0 12px 34px #2d51800c;background:#f4f8fd}
@@ -174,6 +176,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .slide-framework:before{content:'';position:absolute;width:540px;height:540px;right:-170px;top:-245px;border:1px solid #98b9df55;border-radius:50%;box-shadow:0 0 0 42px #b9cfe91c,0 0 0 84px #b9cfe914;z-index:-1;pointer-events:none}
 .slide-framework:after{content:'';position:absolute;inset:60% -10% -30%;background:repeating-linear-gradient(0deg,transparent 0 49px,#8baed62b 50px 51px),repeating-linear-gradient(90deg,transparent 0 59px,#8baed62b 60px 61px);transform:perspective(500px) rotateX(52deg) rotateZ(-12deg);z-index:-1;pointer-events:none}
 .framework-heading>.eyebrow{display:inline-flex;padding:4px 0;border-bottom:2px solid #8bb1df}
+.framework-title-line{white-space:nowrap}
 .slide-framework .intelligence-loop{border:1px solid #bfd3eb;box-shadow:0 16px 35px #30598514,inset 0 1px #fff;background-color:#f9fcff;background-image:radial-gradient(#cbdced .65px,transparent .65px);border-radius:14px}
 .slide-framework .loop-heading{align-items:center;padding-bottom:8px;border-bottom:1px solid #dde8f5}
 .loop-index{background:#edf6f2;border:1px solid #c8e1d7;border-radius:5px;padding:2px 6px}
