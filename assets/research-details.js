@@ -259,5 +259,52 @@ window.AIIS_RESEARCH = [
         "poster": "video-korean-part.jpg"
       }
     ]
+  },
+  {
+    "id": "humanoid-operations",
+    "label": "HUMANOID ROBOT OPERATIONS",
+    "short": {
+      "ko": "휴머노이드 로봇 운영",
+      "en": "Humanoid robot operations"
+    },
+    "title": {
+      "ko": "다중 이기종 휴머노이드 로봇 운영 관리",
+      "en": "Operations Management for Heterogeneous Humanoid Robot Fleets"
+    },
+    "points": {
+      "ko": [
+        "서로 다른 기종과 작업 능력을 가진 휴머노이드 로봇이 제조·물류 현장에서 협업할 수 있도록 운영 관리 방법을 연구합니다.",
+        "로봇의 가용성, 배터리 상태, 작업 우선순위를 고려해 작업 할당, 스케줄링, 이동 경로와 충전 계획을 통합적으로 최적화합니다.",
+        "디지털 모델과 시뮬레이션을 활용해 중앙 관제와 개별 로봇의 자율적 의사결정을 연계하고, 변화하는 작업 환경에 대응하는 운영 정책을 개발합니다."
+      ],
+      "en": [
+        "We study operations management methods that enable humanoid robots with different hardware and capabilities to collaborate in manufacturing and logistics environments.",
+        "Our research jointly optimizes task allocation, scheduling, motion routing, and charging plans while considering robot availability, battery levels, and task priorities.",
+        "We use digital models and simulation to connect centralized coordination with autonomous robot decision-making and develop operating policies that adapt to changing shop-floor conditions."
+      ]
+    },
+    "media": [
+      {
+        "id": "humanoid-dashboard",
+        "type": "image",
+        "file": "research-humanoid-dashboard.png",
+        "title": {
+          "ko": "휴머노이드 로봇 통합 운영 대시보드",
+          "en": "Integrated Humanoid Robot Operations Dashboard"
+        },
+        "source": "AIIS Lab"
+      },
+      {
+        "id": "humanoid-simulation",
+        "type": "video",
+        "file": "research-humanoid-operations.mp4",
+        "poster": "video-humanoid-operations.jpg",
+        "title": {
+          "ko": "생산 현장 다중 로봇 운영 시뮬레이션",
+          "en": "Multi-Robot Operations Simulation on the Shop Floor"
+        },
+        "source": "AIIS Lab"
+      }
+    ]
   }
 ];
