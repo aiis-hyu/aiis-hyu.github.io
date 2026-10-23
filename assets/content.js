@@ -275,32 +275,36 @@ window.AIIS_CONTENT = {
       "ko": "지예림",
       "programStart": "2026.09",
       "en": "Yerim Ji",
-      "photo": null,
+      "photo": "member-yerim-ji.png",
       "group": "combined",
-      "email": "jyr030306@hanyang.ac.kr"
+      "email": "jyr030306@hanyang.ac.kr",
+      "cv": "https://foamy-tortoise-475.notion.site/Curriculum-Vitae-CV-4027c11ebe74801180b5ceb5ba378af8?pvs=74"
     },
     {
       "ko": "노민아",
       "programStart": "2026.09",
       "en": "Minah Noh",
-      "photo": null,
+      "photo": "member-minah-noh.png",
       "group": "combined",
-      "email": "nomin10@hanyang.ac.kr"
+      "email": "nomin10@hanyang.ac.kr",
+      "cv": "https://indecisive-cow-364.notion.site/Curriculum-Vitae-40133da75b3180aeaed2cddda34ab8fa"
     },
     {
       "ko": "심민성",
       "programStart": "2026.09",
       "en": "Minsung Shim",
-      "photo": null,
+      "photo": "member-minsung-shim.png",
       "group": "master",
-      "email": "smse560@hanyang.ac.kr"
+      "email": "smse560@hanyang.ac.kr",
+      "cv": "https://tungsten-scourge-b89.notion.site/Curriculum-Vitae-CV-4022457e43c8803f9bf6d861b9e67d7c?pvs=74"
     },
     {
       "ko": "김동민",
       "en": "Dongmin Kim",
-      "photo": null,
+      "photo": "member-dongmin-kim.png",
       "group": "undergrad",
-      "email": "kimdm912@hanyang.ac.kr"
+      "email": "kimdm912@hanyang.ac.kr",
+      "cv": "https://luck-tanker-b27.notion.site/Curriculum-Vitae-c13c7a38ee3a82c8be6581023e124951?source=copy_link"
     },
     {
       "ko": "송유찬",

@@ -306,3 +306,8 @@ body{font-size:16px}
  #main .title-affiliation strong,#main .title-affiliation .affiliation-department{font-size:12px;letter-spacing:-.3px}
  .title-affiliation .university-symbol{width:24px;height:24px}
 }
+
+/* Student CV links use the same restrained blue as other site actions. */
+.member-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.member-cv{display:inline-flex;align-items:center;gap:16px;padding:4px 11px;min-height:34px;border:1px solid var(--tag-line);border-radius:6px;background:var(--accent-light);color:var(--accent);font-size:13px;font-weight:600;line-height:1.5;text-decoration:none}
+.member-cv:hover{background:#dfebfb;border-color:#aac4e6;color:#184d8b}

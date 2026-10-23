@@ -55,3 +55,9 @@ Humanoid robot operations research media (2026-10-23)
 research-humanoid-dashboard.png: screenshot supplied by AIIS Lab.
 research-humanoid-operations.mp4: supplied Video Project 2.mp4; lossless remux for progressive web playback.
 video-humanoid-operations.jpg: frame at 00:18 from the supplied video.
+
+Student profile photos (2026-10-23): supplied by AIIS Lab, copied without image alterations.
+member-dongmin-kim.png: 김동민
+member-yerim-ji.png: 지예림
+member-minah-noh.png: 노민아
+member-minsung-shim.png: 심민성
