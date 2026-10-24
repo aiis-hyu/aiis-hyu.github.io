@@ -125,7 +125,6 @@ window.AIIS_CONTENT = {
       "id": "capstone-award",
       "date": "2026-07-01",
       "category": "award",
-      "image": "capstone-2026.jpg",
       "title": {
         "ko": "캡스톤디자인페어 은상 수상",
         "en": "Silver award at the Capstone Design Fair"
@@ -134,7 +133,29 @@ window.AIIS_CONTENT = {
         "ko": "심민성·우원진·최원준 학생의 VPP 기반 3D Printing Foundry 생산라인 시뮬레이션 및 운영 의사결정 분석 과제가 은상을 수상했습니다.",
         "en": "Minsung Shim, Wonjin Woo and Wonjun Choi received a silver award for their simulation and operational decision analysis of a VPP-based 3D printing foundry."
       },
-      "url": "https://youtu.be/4uwxX05Vj54?si=cp3fFDf8oqRtlrUE"
+      "url": "https://youtu.be/4uwxX05Vj54?si=cp3fFDf8oqRtlrUE",
+      "images": [
+        {
+          "image": "capstone-2026.jpg",
+          "width": 4000,
+          "height": 3000,
+          "fit": "contain",
+          "caption": {
+            "ko": "캡스톤디자인페어 은상",
+            "en": "Capstone Design Fair silver award"
+          }
+        },
+        {
+          "image": "news/capstone-2026-certificate.jpg",
+          "width": 3000,
+          "height": 4000,
+          "fit": "contain",
+          "caption": {
+            "ko": "캡스톤디자인페어 은상 상장",
+            "en": "Silver award certificate"
+          }
+        }
+      ]
     },
     {
       "id": "cde",
@@ -215,7 +236,8 @@ window.AIIS_CONTENT = {
           "caption": {
             "ko": "1위 · Team WoW",
             "en": "First place · Team WoW"
-          }
+          },
+          "fit": "contain"
         },
         {
           "image": "news/ieee-case-hackathon-2025-third-place.jpg",
@@ -224,7 +246,8 @@ window.AIIS_CONTENT = {
           "caption": {
             "ko": "3위 · Team AIIS",
             "en": "Third place · Team AIIS"
-          }
+          },
+          "fit": "contain"
         }
       ],
       "title": {
@@ -235,6 +258,39 @@ window.AIIS_CONTENT = {
         "ko": "민성·원진·승윤 학생 팀이 1위, 동민·예림·민아 학생 팀이 3위를 수상했습니다.",
         "en": "The team of Minsung, Wonjin and Seungyoon placed first, and the team of Dongmin, Yerim and Minah placed third at the 2025 IEEE CASE Hackathon."
       }
+    },
+    {
+      "id": "kiie-2023",
+      "date": "2023-11-03",
+      "category": "event",
+      "title": {
+        "ko": "2023 대한산업공학회 추계학술대회 참가",
+        "en": "2023 KIIE Fall Conference"
+      },
+      "body": {
+        "ko": "AIIS 연구실이 2023년 11월 2~3일 울산과학기술원(UNIST)에서 열린 대한산업공학회 추계학술대회에 참가했습니다. 「다수 아이템의 자재 주문량 결정을 위한 강화학습 알고리즘 적용 및 성능 비교」 연구를 포스터로 발표했습니다.",
+        "en": "AIIS Lab participated in the 2023 Fall Conference of the Korean Institute of Industrial Engineers, held at UNIST on November 2–3. We presented a poster on the application and performance comparison of reinforcement learning algorithms for material order quantity decisions across multiple items."
+      },
+      "images": [
+        {
+          "image": "news/kiie-fall-2023-venue.jpg",
+          "width": 2718,
+          "height": 1908,
+          "caption": {
+            "ko": "2023 추계학술대회 현장 · UNIST",
+            "en": "2023 KIIE Fall Conference at UNIST"
+          }
+        },
+        {
+          "image": "news/kiie-fall-2023-poster.jpg",
+          "width": 3024,
+          "height": 1811,
+          "caption": {
+            "ko": "강화학습 기반 자재 주문량 결정 연구 포스터 발표",
+            "en": "Poster presentation on reinforcement learning for material ordering"
+          }
+        }
+      ]
     }
   ],
   "gallery": [
