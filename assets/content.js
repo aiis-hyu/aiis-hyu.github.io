@@ -140,6 +140,31 @@ window.AIIS_CONTENT = {
       "id": "cde",
       "date": "2026-02-09",
       "category": "event",
+      "images": [
+        {
+          "image": "news/cde-winter-2026-meal.jpg",
+          "width": 1386,
+          "height": 900,
+          "caption": {
+            "ko": "학술대회에서 함께한 식사",
+            "en": "Sharing a meal during the conference"
+          }
+        },
+        {
+          "image": "news/cde-winter-2026-lab-memories.jpg",
+          "width": 4284,
+          "height": 3604,
+          "caption": {
+            "ko": "학술대회에서 함께한 시간",
+            "en": "Lab memories from the winter conference"
+          }
+        }
+      ],
+      "url": "https://youtube.com/playlist?list=PLJKtx0OL2-vs&si=yfhhlSUV4xmE9QuD",
+      "urlLabel": {
+        "ko": "연구 발표 영상 보기",
+        "en": "Watch research presentations"
+      },
       "title": {
         "ko": "CDE 동계학술대회, 다섯 가지 연구 이야기",
         "en": "Five research stories at the CDE winter conference"
