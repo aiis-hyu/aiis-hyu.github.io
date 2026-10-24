@@ -320,3 +320,16 @@ html[lang=en] .professor-affiliation .affiliation-university{margin-inline-start
 #main .journal-ranking strong{font-weight:700;color:#2867b2;}
 @media(max-width:800px){#main .title-slogan{left:24px;right:24px;top:24px;}}
 @media(max-width:600px){#main .title-slogan{left:20px;right:20px;top:24px;font-size:16px;line-height:1.5;white-space:normal;text-wrap:balance;}}
+
+/* Multiple news photos retain the full certificate and open individually. */
+.news-article--gallery{grid-template-columns:130px minmax(0,1fr)}
+.news-article--gallery>div{min-width:0}
+.news-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:22px;max-width:880px}
+.news-photo-grid figure{margin:0;min-width:0}
+.news-photo-button{display:block;position:relative;width:100%;padding:7px;border:1px solid var(--line);border-radius:4px;background:#fff;cursor:zoom-in;overflow:hidden}
+.news-photo-button img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
+.news-photo-button:hover{border-color:var(--accent)}
+.news-photo-expand{position:absolute;right:12px;bottom:12px;display:grid;place-items:center;width:29px;height:29px;border-radius:50%;background:#fffffff0;color:var(--accent);font-size:20px;box-shadow:0 2px 8px #24385120}
+.news-photo-grid figcaption{margin-top:9px;color:var(--ink);font-size:14px;font-weight:600;line-height:1.5}
+@media(max-width:800px){.news-article--gallery{grid-template-columns:100px minmax(0,1fr)}}
+@media(max-width:600px){.news-article--gallery{grid-template-columns:1fr}.news-photo-grid{grid-template-columns:1fr;gap:19px;margin-top:18px}}

@@ -182,6 +182,26 @@ window.AIIS_CONTENT = {
       "id": "hackathon",
       "date": "2025-08-18",
       "category": "award",
+      "images": [
+        {
+          "image": "news/ieee-case-hackathon-2025-first-place.jpg",
+          "width": 1260,
+          "height": 946,
+          "caption": {
+            "ko": "1위 · Team WoW",
+            "en": "First place · Team WoW"
+          }
+        },
+        {
+          "image": "news/ieee-case-hackathon-2025-third-place.jpg",
+          "width": 836,
+          "height": 641,
+          "caption": {
+            "ko": "3위 · Team AIIS",
+            "en": "Third place · Team AIIS"
+          }
+        }
+      ],
       "title": {
         "ko": "IEEE CASE Hackathon, 1위와 3위",
         "en": "First and third place at the IEEE CASE Hackathon"
