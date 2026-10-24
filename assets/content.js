@@ -119,7 +119,18 @@ window.AIIS_CONTENT = {
         "ko": "한국생산기술연구원 3D프린팅제조혁신센터(KAMIC)와 AIIS Lab이 기술교류회를 진행했습니다.",
         "en": "AIIS Lab held a technical exchange with the Korea Additive Manufacturing Innovation Center (KAMIC) at KITECH."
       },
-      "url": "https://kamic.or.kr/"
+      "images": [
+        {
+          "image": "kamic-2026.jpg",
+          "width": 5712,
+          "height": 4284,
+          "position": "50% 53%",
+          "caption": {
+            "ko": "KAMIC 방문 · 다중 로봇 적층제조",
+            "en": "At KAMIC · Multi-robot additive manufacturing"
+          }
+        }
+      ]
     },
     {
       "id": "capstone-award",
@@ -149,11 +160,12 @@ window.AIIS_CONTENT = {
           "image": "news/capstone-2026-certificate.jpg",
           "width": 3000,
           "height": 4000,
-          "fit": "contain",
+          "fit": "cover",
           "caption": {
             "ko": "캡스톤디자인페어 은상 상장",
             "en": "Silver award certificate"
-          }
+          },
+          "position": "50% 56%"
         }
       ]
     },
