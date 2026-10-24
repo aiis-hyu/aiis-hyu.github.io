@@ -271,6 +271,8 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .research-video .video-play{color:#2867b2;background:#fff;box-shadow:0 5px 22px #142b4c40;}
 
 .professor-affiliation{font-size:15px;line-height:1.85;word-break:keep-all;}
+.professor-affiliation .affiliation-university{font-weight:700;white-space:nowrap;margin-inline-end:.35em;}
+html[lang=en] .professor-affiliation .affiliation-university{margin-inline-start:.35em;margin-inline-end:0;}
 #main .journal-metrics{margin:12px 0;font-size:14px;line-height:1.8;color:#53687f;}
 #main .journal-metrics .impact-factor{display:inline-flex;align-items:baseline;gap:5px;white-space:nowrap;}
 #main .journal-metrics .impact-factor strong{color:#2867b2;font-size:14px;font-weight:700;}
