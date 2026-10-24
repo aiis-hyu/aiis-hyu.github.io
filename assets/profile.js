@@ -107,6 +107,10 @@ window.AIIS_PROFILE = {
             [
               2025,
               1
+            ],
+            [
+              2026,
+              1
             ]
           ],
           "url": "https://youtube.com/playlist?list=PLB8rLyzIJnxY&si=q298Vru1sl3P-wTZ"
@@ -126,6 +130,10 @@ window.AIIS_PROFILE = {
             ],
             [
               2025,
+              2
+            ],
+            [
+              2026,
               2
             ]
           ],
@@ -165,6 +173,10 @@ window.AIIS_PROFILE = {
             [
               2024,
               2
+            ],
+            [
+              2026,
+              2
             ]
           ]
         },
@@ -182,7 +194,12 @@ window.AIIS_PROFILE = {
               2025,
               2
             ]
-          ]
+          ],
+          "url": "https://youtube.com/playlist?list=PLTVjtJkE9mtc&si=z6_TBHbps6x_gq85",
+          "urlLabel": {
+            "ko": "개인 프로젝트 발표 영상",
+            "en": "Individual Project Presentation Videos"
+          }
         },
         {
           "code": "IBE8064",
