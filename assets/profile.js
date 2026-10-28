@@ -422,16 +422,18 @@ window.AIIS_PROFILE = {
       "title": "Reviewer",
       "items": {
         "ko": [
-          "대한산업공학회지 (2022)",
-          "Journal of Computational Design and Engineering (2024)",
-          "IDETC/CIE · Design for Manufacturing and the Life Cycle Conference (2024)",
-          "Scientific Reports (2025)"
+          "대한산업공학회지",
+          "Journal of Computational Design and Engineering",
+          "IDETC/CIE · Design for Manufacturing and the Life Cycle Conference",
+          "Scientific Reports",
+          "International Journal of Production Research (IJPR)"
         ],
         "en": [
-          "Journal of the Korean Institute of Industrial Engineers (2022)",
-          "Journal of Computational Design and Engineering (2024)",
-          "IDETC/CIE · Design for Manufacturing and the Life Cycle Conference (2024)",
-          "Scientific Reports (2025)"
+          "Journal of the Korean Institute of Industrial Engineers",
+          "Journal of Computational Design and Engineering",
+          "IDETC/CIE · Design for Manufacturing and the Life Cycle Conference",
+          "Scientific Reports",
+          "International Journal of Production Research (IJPR)"
         ]
       }
     }
