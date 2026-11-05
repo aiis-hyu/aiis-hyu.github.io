@@ -34,18 +34,18 @@ window.AIIS_PROJECTS = [
   {
     "id": "project-03",
     "start": "2025.01",
-    "end": null,
+    "end": "2025.12",
     "role": "pi",
     "title": {
       "ko": "HYU-KITECH 공동교육기반 공동연구",
       "en": "HYU–KITECH Joint Research Based on Collaborative Education"
     },
     "funder": {
-      "ko": "과학기술정보통신부",
-      "en": "Ministry of Science and ICT"
+      "ko": "한국생산기술연구원",
+      "en": "Korea Institute of Industrial Technology (KITECH)"
     },
     "sourceTitle": "HYU-KITECH 공동교육기반 공동연구",
-    "funderLogo": "funder-msit.svg"
+    "funderLogo": "funder-kitech.svg"
   },
   {
     "id": "project-04",
