@@ -1,5 +1,30 @@
 window.AIIS_PUBLICATIONS = [
   {
+    "id": "pub-0-2",
+    "kind": "working",
+    "scope": "international",
+    "year": 2026,
+    "title": "Task Dispatching for Multiple Humanoid Robots in Stochastic Manufacturing Flow Shops: A Simulation-Based Approximate Dynamic Programming Approach",
+    "authors": "Yosep Oh, Hyunjun Kim",
+    "venue": "(in progress)",
+    "links": [],
+    "citation": "Yosep Oh, Hyunjun Kim, Task Dispatching for Multiple Humanoid Robots in Stochastic Manufacturing Flow Shops: A Simulation-Based Approximate Dynamic Programming Approach (in progress)",
+    "sourceOrder": 73
+  },
+  {
+    "id": "pub-0-3",
+    "kind": "working",
+    "scope": "international",
+    "year": 2026,
+    "status": "submitted",
+    "title": "Deployment-Time Threshold Selection for Pre-trained Defect Segmentation Models in Manufacturing Inspection Using an Expected Confusion Matrix",
+    "authors": "Dongmin Kim, Yosep Oh",
+    "venue": "Quality Engineering (submitted)",
+    "links": [],
+    "citation": "Dongmin Kim, Yosep Oh, Deployment-Time Threshold Selection for Pre-trained Defect Segmentation Models in Manufacturing Inspection Using an Expected Confusion Matrix, Quality Engineering (submitted)",
+    "sourceOrder": 74
+  },
+  {
     "id": "pub-0-1",
     "kind": "working",
     "scope": "international",
