@@ -1,8 +1,9 @@
 window.AIIS_PROJECTS = [
   {
     "id": "project-01",
-    "start": "2026.09",
+    "start": "2026.11",
     "end": null,
+    "plannedEnd": "2029.10",
     "role": "pi",
     "title": {
       "ko": "딥테크 챌린지 프로젝트: AI 기반 공정 자동화 및 다공정 적층제조 통합 플랫폼 개발",
